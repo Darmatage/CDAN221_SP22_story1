@@ -338,7 +338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: CREDITS
 --- !u!222 &1192480316
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -514,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 255}
+  m_AnchoredPosition: {x: 1, y: 293}
   m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307652111
@@ -550,7 +550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Win!!
+  m_Text: CONGRATULATIONS
 --- !u!222 &1307652112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 1382872985}
   - component: {fileID: 1382872984}
   m_Layer: 5
-  m_Name: ButtonRestart
+  m_Name: ButtonCredits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,7 +719,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1905282739}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 147}
+  m_AnchoredPosition: {x: 0, y: 221}
   m_SizeDelta: {x: 800, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041099421
@@ -1092,7 +1092,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: stinky haha
+  m_Text: Thanks for playing!
 --- !u!222 &2041099422
 CanvasRenderer:
   m_ObjectHideFlags: 0
