@@ -632,7 +632,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446418632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene4Dialogue, Assembly-CSharp
         m_MethodName: Choice1bFunct
         m_Mode: 1
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446418632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene4Dialogue, Assembly-CSharp
         m_MethodName: Choice1aFunct
         m_Mode: 1
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446418632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene4Dialogue, Assembly-CSharp
         m_MethodName: talking
         m_Mode: 1
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446418632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene4Dialogue, Assembly-CSharp
         m_MethodName: SceneChange2
         m_Mode: 1
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1446418627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c55c8a46caf984a998790bd4a44f1379, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a85a4cad4a9b416faf0b11bdd09e1f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446418632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene4Dialogue, Assembly-CSharp
         m_MethodName: SceneChange1
         m_Mode: 1

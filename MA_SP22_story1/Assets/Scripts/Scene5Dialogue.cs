@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 
 public class Scene5Dialogue : MonoBehaviour
 {
-    public int primeInt = 1; // This integer drives game progress!
+    public int primeInt = 1;         // This integer drives game progress!
     public Text Char1name;
     public Text Char1speech;
     public Text Char2name;
@@ -16,6 +16,7 @@ public class Scene5Dialogue : MonoBehaviour
     //public Text Char3speech;
     public GameObject DialogueDisplay;
     public GameObject ArtChar1;
+    //public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;

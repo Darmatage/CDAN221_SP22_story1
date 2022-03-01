@@ -2239,6 +2239,7 @@ MonoBehaviour:
   Char3speech: {fileID: 446070395}
   DialogueDisplay: {fileID: 1924471377}
   ArtChar1: {fileID: 904681654}
+  ArtChar2: {fileID: 588794588}
   ArtBG1: {fileID: 408312144}
   Choice1a: {fileID: 1894979061}
   Choice1b: {fileID: 825172751}

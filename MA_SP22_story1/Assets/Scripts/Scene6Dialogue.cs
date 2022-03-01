@@ -16,7 +16,7 @@ public class Scene6Dialogue : MonoBehaviour
     public Text Char3speech;
     public GameObject DialogueDisplay;
     public GameObject ArtChar1;
-    //public GameObject ArtChar2;
+    public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
