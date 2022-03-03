@@ -8,6 +8,7 @@ using UnityEngine.Audio;
 public class Scene4Dialogue : MonoBehaviour
 {
     public int primeInt = 1; // This integer drives game progress!
+    public int kidnap = 0;
     public Text Char1name;
     public Text Char1speech;
     public Text Char2name;
@@ -147,7 +148,7 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 13)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "So where do you want to go first, me Lord?.";
+            Char1speech.text = "So where do you want to go first, me Lord?";
             Char2name.text = "";
             Char2speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
@@ -210,9 +211,9 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 203)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "";
+            Char1speech.text = "You got it, Lord Kreatin.";
             Char2name.text = "";
-            Char2speech.text = "You got it, Lord Kreatin.";
+            Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
