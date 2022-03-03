@@ -5,9 +5,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class Scene5Dialogue : MonoBehaviour
+public class Scene3Dialogue : MonoBehaviour
 {
-    public int primeInt = 1; // This integer drives game progress!
+    public int primeInt = 1;         // This integer drives game progress!
     public Text Char1name;
     public Text Char1speech;
     public Text Char2name;
@@ -16,6 +16,7 @@ public class Scene5Dialogue : MonoBehaviour
     //public Text Char3speech;
     public GameObject DialogueDisplay;
     public GameObject ArtChar1;
+    //public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -61,89 +62,54 @@ public class Scene5Dialogue : MonoBehaviour
         {
             ArtChar1.SetActive(true);
             DialogueDisplay.SetActive(true);
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Alright, I made it to the Green Kingdom.";
+            Char1name.text = "Jeda";
+            Char1speech.text = "Wakey wakey, human.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 3)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "I wonder if Queen Lily is here right now?";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "You";
+            Char2speech.text = "Wuh..? What happened?";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 4)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "???";
-            Char2speech.text = "Who goes there, Stranger!?";
+            Char1name.text = "Jeda";
+            Char1speech.text = "I know I did not hit you that hard.";
+            Char2name.text = "";
+            Char2speech.text = "";
         }
         else if (primeInt == 5)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "???";
-            Char2speech.text = "What business do you have on our property?";
+            Char2name.text = "You";
+            Char2speech.text = "Hit me? Why?";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 6)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "First, the name is King Kreatin.";
+            Char1name.text = "Jeda";
+            Char1speech.text = "I am searching for a fugitive. Ragu Fahn.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 7)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "And second, it’s rude to call me stranger.";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "You";
+            Char2speech.text = "Why do you think I know anything?";
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Who are you?";
+            Char1name.text = "Jeda";
+            Char1speech.text = "Do not play the stupid. You will take me to him.";
             Char2name.text = "";
             Char2speech.text = "";
-        }
-        else if (primeInt == 9)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "My name is Lily Lad";
-        }
-        else if (primeInt == 10)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "I am the servant and guard of the Green Kingdom.";
-        }
-        else if (primeInt == 11)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "I also protect the kingdom from incoming danger.";
-        }
-        else if (primeInt == 12)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "Even Queen Lily's life.";
-        }
-        else if (primeInt == 13)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "So what brings you here to our kingdom?";
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
             allowSpace = false;
@@ -153,29 +119,15 @@ public class Scene5Dialogue : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Do you know where she is?";
+            Char1name.text = "Jeda";
+            Char1speech.text = "Then you are no use to me, and must be silenced.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 101)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "Queen Lily is in her throne room in our castle right now.";
-        }
-        else if (primeInt == 102)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "Would you like to to see her?";
-        }
-        else if (primeInt == 103)
-        {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Gladly.";
+            Char1name.text = "Jeda";
+            Char1speech.text = "Come back here! Do not think you can hide from me!";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -185,25 +137,17 @@ public class Scene5Dialogue : MonoBehaviour
 
         else if (primeInt == 200)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "Well I suggest you leave our property.";
+            Char1name.text = "Jeda";
+            Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
+            Char2name.text = "";
+            Char2speech.text = "";
         }
         else if (primeInt == 201)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Lily Lad";
-            Char2speech.text = "And don’t comeback until you have something that brings you here to our land.";
-        }
-
-        else if (primeInt == 202)
-        {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Alright, I’m going! Geez! That frog needs to chill.";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char2name.text = "You";
+            Char2speech.text = "Ragu hangs out in a rough part of town. I'll take you now.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -213,10 +157,10 @@ public class Scene5Dialogue : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
-        Char1name.text = "Kreatin";
-        Char1speech.text = "I’m here to see Queen Lily.";
-        Char2name.text = "";
-        Char2speech.text = "";
+        Char1name.text = "";
+        Char1speech.text = "";
+        Char2name.text = "You";
+        Char2speech.text = "I don't know what you're talking about!";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -225,10 +169,10 @@ public class Scene5Dialogue : MonoBehaviour
     }
     public void Choice1bFunct()
     {
-        Char1name.text = "Kreatin";
-        Char1speech.text = "On second thought, I don’t have anything.";
-        Char2name.text = "";
-        Char2speech.text = "";
+        Char1name.text = "";
+        Char1speech.text = "";
+        Char2name.text = "You";
+        Char2speech.text = "Sure, anything you want... just lay off the club.";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -238,10 +182,10 @@ public class Scene5Dialogue : MonoBehaviour
 
     public void SceneChange1()
     {
-        SceneManager.LoadScene("Scene6");
+        SceneManager.LoadScene("Scene4");
     }
     public void SceneChange2()
     {
-        SceneManager.LoadScene("Scene4");
+        SceneManager.LoadScene("Scene2");
     }
 }
