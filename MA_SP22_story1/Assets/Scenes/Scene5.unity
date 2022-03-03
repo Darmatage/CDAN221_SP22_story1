@@ -1797,7 +1797,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice 1
+  m_Text: Queen Lily
 --- !u!222 &1240216056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2038,7 +2038,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice 2
+  m_Text: Nothing
 --- !u!222 &1374666317
 CanvasRenderer:
   m_ObjectHideFlags: 0
