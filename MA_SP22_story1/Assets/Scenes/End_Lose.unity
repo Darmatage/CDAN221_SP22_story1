@@ -202,6 +202,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23301763}
   m_CullTransparentMesh: 1
+--- !u!1 &292929253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5623638849594768714, guid: e68a860115d404cbab51fe882ad470ba, type: 3}
+  m_PrefabInstance: {fileID: 1075388597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &459263744
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +293,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1943053501496112676, guid: e68a860115d404cbab51fe882ad470ba, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 55965cc30a195024c96143a3fadc1ae2, type: 2}
+    - target: {fileID: 1943053501496112676, guid: e68a860115d404cbab51fe882ad470ba, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 292929253}
     - target: {fileID: 4210558849419492885, guid: e68a860115d404cbab51fe882ad470ba, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -343,7 +356,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1943053501496112676, guid: e68a860115d404cbab51fe882ad470ba, type: 3}
   m_PrefabInstance: {fileID: 1075388597}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 292929253}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cf672ff103d2478999286499d7ca008, type: 3}
