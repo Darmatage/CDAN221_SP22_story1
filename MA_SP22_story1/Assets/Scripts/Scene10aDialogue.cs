@@ -99,14 +99,14 @@ public void talking(){         // main story function. Players hit next to progr
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "Danger Dan";
-                Char4speech.text = "Now! Let go of your ";
+                Char4speech.text = "Now be a hospitable host and let your guests ditch your drab dinner.";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
-                Char1name.text = "ButterBee";
-                Char1speech.text = "I guess I am... a bit hungry?";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "So everyone gets to have all the fun leaving Kreatin out of all the parties instead?";
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -115,83 +115,74 @@ public void talking(){         // main story function. Players hit next to progr
        else if (primeInt ==7){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "Queen Lily";
-                Char3speech.text = "Don't be intimidated ButterBee, Danger Dan is already coming to our rescue!";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "Fat chance! We're gonna have a lovely feast, and you're about to be the main course!";
+                Char3name.text = "";
+                Char3speech.text = "";
                 Char4name.text = "";
                 Char4speech.text = "";
         }
        else if (primeInt == 8){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "Actually, not! Just like you left me out, Dan wasn't invited!";
+                Char2name.text = "";
+                Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "";
-                Char4speech.text = "";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "My favorite thing about you Kreatin is the way you never learn.";
         }
         else if (primeInt == 9){
-                 Char1name.text = "ButterBee";
-                 Char1speech.text = "I get the feeling that wont stop him from making an appearance..";
+                 Char1name.text = "";
+                 Char1speech.text = "";
                  Char2name.text = "";
                  Char2speech.text = "";
                  Char3name.text = "";
                  Char3speech.text = "";
-                 Char4name.text = "";
-                 Char4speech.text = "";
+                 Char4name.text = "Danger Dan";
+                 Char4speech.text = "Why dont you two run along, its about to get dangerous in here!";
          }
          else if (primeInt == 10){
                   Char1name.text = "";
                   Char1speech.text = "";
-                  Char2name.text = "Kreatin";
-                  Char2speech.text = "Kreaty, go outside and alert all guards! Danger Dan is not invited.";
-                  Char3name.text = "";
-                  Char3speech.text = "";
+                  Char2name.text = "";
+                  Char2speech.text = "";
+                  Char3name.text = "Queen Lily";
+                  Char3speech.text = "Oh thank you Dan, I knew you'd save us!";
                   Char4name.text = "";
                   Char4speech.text = "";
           }
           else if (primeInt == 11){
-                   Char1name.text = "";
-                   Char1speech.text = "";
+            ArtChar3.SetActive(false);
+                   Char1name.text = "ButterBee";
+                   Char1speech.text = "Please be careful, he's quite ferocious..!";
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "";
                    Char3speech.text = "";
-                   Char4name.text = "Kreaty";
-                   Char4speech.text = "Yes, sire..";
+                   Char4name.text = "";
+                   Char4speech.text = "";
            }
            else if (primeInt == 12){
-             ArtChar4.SetActive(false);
+             ArtChar1.SetActive(false);
                     Char1name.text = "";
                     Char1speech.text = "";
                     Char2name.text = "";
                     Char2speech.text = "";
-                    Char3name.text = "Queen Lily";
-                    Char3speech.text = "*scoffs* We'll see how long your measley lizards last!";
-                    Char4name.text = "";
-                    Char4speech.text = "";
-            }
-            else if (primeInt == 13){
-                     Char1name.text = "ButterBee";
-                     Char1speech.text = "Dont try to frustrate him further..!";
-                     Char2name.text = "";
-                     Char2speech.text = "";
-                     Char3name.text = "";
-                     Char3speech.text = "";
-                     Char4name.text = "";
-                     Char4speech.text = "";
+                    Char3name.text = "";
+                    Char3speech.text = "";
+                    Char4name.text = "Danger Dan";
+                    Char4speech.text = "Looks like it's just you and me now, Kreatin.";
              }
-             else if (primeInt == 14){
+             else if (primeInt == 13){
                       Char1name.text = "";
                       Char1speech.text = "";
-                      Char2name.text = "Kreatin";
-                      Char2speech.text = "Look everyone, why dont you...";
+                      Char2name.text = "";
+                      Char2speech.text = "";
                       Char3name.text = "";
                       Char3speech.text = "";
-                      Char4name.text = "";
-                      Char4speech.text = "";
+                      Char4name.text = "Danger Dan";
+                      Char4speech.text = "We can do this the easy-way, or the hard-way...";
                 // Turn off "Next" button, turn on "Choice" buttons
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -202,32 +193,32 @@ public void talking(){         // main story function. Players hit next to progr
        else if (primeInt == 100){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "If you dont start eating something, then I'll have to make you eat!";
+                Char2name.text = "";
+                Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "";
-                Char4speech.text = "";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "So wait, you don't want to fight me?";
         }
        else if (primeInt == 101){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "Queen Lily";
-                Char3speech.text = "O-Oh my! You wouldn't dare!";
-                Char4name.text = "";
-                Char4speech.text = "";
-              }
-          else if (primeInt == 102){
-                 Char1name.text = "ButterBee";
-                Char1speech.text = "Well uhm! Are those chicken wings I see.? Heh heh..";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "Just get out of here, you blue gnome!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
                 Char4speech.text = "";
+              }
+          else if (primeInt == 102){
+                 Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "Huh. Easy-way it is then!";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -237,7 +228,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
-                Char2speech.text = "I think its only fair, I never get to hang out with other royals!";
+                Char2speech.text = "Ill rip you to shreds, you big blue bloke!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -248,20 +239,20 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-                Char3name.text = "Queen Lily";
-                Char3speech.text = "Maybe if you werent so monstrous, we'd care to invite you!";
-                Char4name.text = "";
-                Char4speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "Good old fashioned hard-way it is then!";
               }
               else if (primeInt == 202){
-                       Char1name.text = "ButterBee";
-                       Char1speech.text = "So really you just wanted our friendship...";
+                       Char1name.text = "";
+                       Char1speech.text = "";
                        Char2name.text = "";
                        Char2speech.text = "";
                        Char3name.text = "";
                        Char3speech.text = "";
-                       Char4name.text = "";
-                       Char4speech.text = "";
+                       Char4name.text = "Danger Dan";
+                       Char4speech.text = "Let's dance, dino dumb-dumb! Danger Dan style!";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
@@ -273,7 +264,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
-                Char2speech.text = "forget about Danger Dan, and just shut up!";
+                Char2speech.text = "forget it, theres no use in fighting you now!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -288,7 +279,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
-                Char2speech.text = "calm down, and try to enjoy the food?";
+                Char2speech.text = "Curse you Dan, my feast is ruined!";
                 Char3name.text = "";
                 Char3speech.text = "";
                 Char4name.text = "";
@@ -301,9 +292,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene10a");
+               SceneManager.LoadScene("End_Lose");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene10b");
+                SceneManager.LoadScene("End_Lose4");
         }
 }
