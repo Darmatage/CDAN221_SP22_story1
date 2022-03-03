@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class Scene9Dialogue : MonoBehaviour {
+public class Scene10aDialogue : MonoBehaviour {
         public int primeInt = 1;         // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -33,7 +33,7 @@ public class Scene9Dialogue : MonoBehaviour {
 void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
         ArtChar1.SetActive(true);
-        ArtChar2.SetActive(false);
+        ArtChar2.SetActive(true);
         ArtChar3.SetActive(true);
         ArtChar4.SetActive(false);
         ArtBG1.SetActive(true);
@@ -59,27 +59,26 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar2.SetActive(true);
                ArtChar4.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "Finally, all our guests are in order. Now we may feast!";
-                Char3name.text = "";
-                Char3speech.text = "";
-                Char4name.text = "";
-                Char4speech.text = "";
-        }
-       else if (primeInt ==3){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "Kreaty";
-                Char4speech.text = "The meal smells exquisite, your highness.";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "King Kreatin! Thought you could get away with partying without me?";
+        }
+       else if (primeInt ==3){
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "DAN?! How did you get here so fast?";
+                Char3name.text = "";
+                Char3speech.text = "";
+                Char4name.text = "";
+                Char4speech.text = "";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
@@ -88,19 +87,19 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Queen Lily";
-                Char3speech.text = "It absolutely does not! Free us, you wretched Kreatin!";
+                Char3speech.text = "As expected, your legion of scaley goons fell short.";
                 Char4name.text = "";
                 Char4speech.text = "";
         }
        else if (primeInt == 5){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "Nonesense, You just got here!";
+                Char2name.text = "";
+                Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
-                Char4name.text = "";
-                Char4speech.text = "";
+                Char4name.text = "Danger Dan";
+                Char4speech.text = "Now! Let go of your ";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
