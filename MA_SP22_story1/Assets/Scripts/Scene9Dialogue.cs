@@ -187,8 +187,8 @@ public void talking(){         // main story function. Players hit next to progr
              else if (primeInt == 14){
                       Char1name.text = "";
                       Char1speech.text = "";
-                      Char2name.text = "Look everyone, why dont you...";
-                      Char2speech.text = "";
+                      Char2name.text = "Kreatin";
+                      Char2speech.text = "Look everyone, why dont you...";
                       Char3name.text = "";
                       Char3speech.text = "";
                       Char4name.text = "";
