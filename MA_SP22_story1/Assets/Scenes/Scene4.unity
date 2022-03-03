@@ -620,6 +620,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722960290052, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722960290052, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
 --- !u!1 &208142775 stripped
@@ -1327,7 +1347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: Green Kingdom
 --- !u!222 &777487787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1680,7 +1700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: Yellow Kingdom
 --- !u!222 &954405856
 CanvasRenderer:
   m_ObjectHideFlags: 0
