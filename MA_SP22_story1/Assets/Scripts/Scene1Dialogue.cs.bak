@@ -62,7 +62,7 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-			   ArtCharBee1.SetActive(true);
+               ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "This is yet another fine festival, Queen Lily.";
@@ -70,6 +70,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
         }
         else if (primeInt == 3){
+               ArtChar1.SetActive(true);
                 dialogue.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "All my subjects have been enjoying themselves greatly!";
@@ -77,8 +78,6 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
         }
        else if (primeInt ==4){
-		   ArtCharQueen1.SetActive(true);
-		   ArtCharBee1.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Queen Lily";
