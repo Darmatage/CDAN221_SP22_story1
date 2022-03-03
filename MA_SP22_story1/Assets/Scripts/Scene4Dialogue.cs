@@ -211,9 +211,9 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 203)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "";
+            Char1speech.text = "You got it, Lord Kreatin.";
             Char2name.text = "";
-            Char2speech.text = "You got it, Lord Kreatin.";
+            Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
