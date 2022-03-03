@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 712903788}
   - component: {fileID: 712903787}
   m_Layer: 5
-  m_Name: TextNextScene
+  m_Name: TextBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -979,7 +979,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next Scene
+  m_Text: Back
 --- !u!222 &712903788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1368,7 +1368,7 @@ GameObject:
   - component: {fileID: 1091639608}
   - component: {fileID: 1091639607}
   m_Layer: 5
-  m_Name: TextScene3
+  m_Name: TextToCrossroad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1426,7 +1426,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Scene 3
+  m_Text: To CrossRoad
 --- !u!222 &1091639608
 CanvasRenderer:
   m_ObjectHideFlags: 0
