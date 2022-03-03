@@ -62,8 +62,8 @@ public class Scene6Dialogue : MonoBehaviour
         {
             ArtChar1.SetActive(true);
             DialogueDisplay.SetActive(true);
-            Char1name.text = "Jeda";
-            Char1speech.text = "Wakey wakey, human.";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "Aha! There you are, your majesty.";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -71,14 +71,13 @@ public class Scene6Dialogue : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "Wuh..? What happened?";
-            //gameHandler.AddPlayerStat(1);
+            Char2name.text = "Queen Lily";
+            Char2speech.text = "Kreatin? What in the world would you possibly be doing here?";
         }
         else if (primeInt == 4)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "I know I did not hit you that hard.";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "Properly inviting my guest to my feast is all!";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -86,14 +85,14 @@ public class Scene6Dialogue : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "Hit me? Why?";
+            Char2name.text = "Queen Lily";
+            Char2speech.text = "And what in the world does that have to do with me?";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 6)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "I am searching for a fugitive. Ragu Fahn.";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "You're the guest, you sarcastic little lady.";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -101,13 +100,13 @@ public class Scene6Dialogue : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "Why do you think I know anything?";
+            Char2name.text = "Queen Lily";
+            Char2speech.text = "As if I'd agree to a feast hosted by your barbaric hands! Leave at once!";
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Do not play the stupid. You will take me to him.";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "You dont exactly have a choice here...";
             Char2name.text = "";
             Char2speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
@@ -119,15 +118,15 @@ public class Scene6Dialogue : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Then you are no use to me, and must be silenced.";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Queen Lily";
+            Char2speech.text = "Unhand me, you fould lizard creature!";
         }
         else if (primeInt == 101)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Come back here! Do not think you can hide from me!";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "Stop your squirming Lily, I've got your seat waiting for you already! Gwahaha!";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -137,17 +136,17 @@ public class Scene6Dialogue : MonoBehaviour
 
         else if (primeInt == 200)
         {
-            Char1name.text = "Jeda";
-            Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Queen Lily";
+            Char2speech.text = "Guards, come quick! This monster is threatening your Queen!";
         }
         else if (primeInt == 201)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "You";
-            Char2speech.text = "Ragu hangs out in a rough part of town. I'll take you now.";
+            Char1name.text = "Kreatin";
+            Char1speech.text = "Uh oh...";
+            Char2name.text = "";
+            Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -157,10 +156,10 @@ public class Scene6Dialogue : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
-        Char1name.text = "";
-        Char1speech.text = "";
-        Char2name.text = "You";
-        Char2speech.text = "I don't know what you're talking about!";
+        Char1name.text = "Kreatin";
+        Char1speech.text = "You're coming to my party wether you like it or not!";
+        Char2name.text = "";
+        Char2speech.text = "";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -169,10 +168,10 @@ public class Scene6Dialogue : MonoBehaviour
     }
     public void Choice1bFunct()
     {
-        Char1name.text = "";
-        Char1speech.text = "";
-        Char2name.text = "You";
-        Char2speech.text = "Sure, anything you want... just lay off the club.";
+        Char1name.text = "Kreatin";
+        Char1speech.text = "You're free to cry and moan all you like though!";
+        Char2name.text = "";
+        Char2speech.text = "";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -182,10 +181,10 @@ public class Scene6Dialogue : MonoBehaviour
 
     public void SceneChange1()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("Scene7");
     }
     public void SceneChange2()
     {
-        SceneManager.LoadScene("Scene2b");
+        SceneManager.LoadScene("End_Lose2");
     }
 }

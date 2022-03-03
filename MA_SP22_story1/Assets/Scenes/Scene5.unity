@@ -1056,7 +1056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To Queen Lily
+  m_Text: GREEN PALACE
 --- !u!222 &777487787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1409,7 +1409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Head Back
+  m_Text: NEXT
 --- !u!222 &954405856
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1600,6 +1600,26 @@ PrefabInstance:
     - target: {fileID: 4441799887988995273, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722797690023, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722960290052, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075389722960290052, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ef6eadc23a9944eae278e009d9165f, type: 3}
@@ -1838,7 +1858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Queen Lily
+  m_Text: LIE
 --- !u!222 &1240216056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2079,7 +2099,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nothing
+  m_Text: TRUTH
 --- !u!222 &1374666317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2217,6 +2237,7 @@ MonoBehaviour:
   Char2speech: {fileID: 1373619632}
   DialogueDisplay: {fileID: 1924471377}
   ArtChar1: {fileID: 904681654}
+  ArtChar2: {fileID: 588794588}
   ArtBG1: {fileID: 408312144}
   Choice1a: {fileID: 518730193}
   Choice1b: {fileID: 499247306}

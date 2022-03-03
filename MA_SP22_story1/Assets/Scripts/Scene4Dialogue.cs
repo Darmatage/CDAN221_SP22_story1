@@ -78,37 +78,38 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 4)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "The left path goes to the Green Kingdom.";
+            Char1speech.text = "The left path goes to the Green Kingdom. Queen Lily resides in the swamp palace.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 5)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "That is where Queen Lily is";
+            Char1speech.text = "The right path goes to the Yellow Kingdom. Prince ButterBee lives among his servants.";
             Char2name.text = "";
             Char2speech.text = "";
-            //gameHandler.AddPlayerStat(1);
         }
+
         else if (primeInt == 6)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "The right path goes to the Yellow Kingdom.";
+            Char1speech.text = "The Middle Path leads straight to Danger Dan's House.";
             Char2name.text = "";
             Char2speech.text = "";
         }
+
         else if (primeInt == 7)
         {
-            Char1name.text = "Kreaty";
-            Char1speech.text = "That is where Prince Butterbee is.";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Kreatin";
+            Char2speech.text = "Obviously, I don’t want to go to Dan’s house.";
         }
 
         else if (primeInt == 8)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "The Middle Path leads straight to Danger Dan's House.";
+            Char1speech.text = "Well, he has defeated you many times before...";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -118,37 +119,21 @@ public class Scene4Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
-            Char2speech.text = "Obviously, I don’t want to go to Dan’s house.";
+            Char2speech.text = "It'll ruin my plans to get cross paths with Dan now.";
         }
 
         else if (primeInt == 10)
         {
-            Char1name.text = "Kreaty";
-            Char1speech.text = "True, you've been defeated by him many times in the past.";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Kreatin";
+            Char2speech.text = "And I have a lot of kidnapping and revenge to do!";
         }
 
         else if (primeInt == 11)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Kreatin";
-            Char2speech.text = "Danger Dan might blast me off into space again.";
-        }
-
-        else if (primeInt == 12)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Kreatin";
-            Char2speech.text = "That would ruin my day of kidnapping and revenge.";
-        }
-
-        else if (primeInt == 13)
-        {
             Char1name.text = "Kreatin";
-            Char1speech.text = "So where do you want to go first, me Lord?";
+            Char1speech.text = "So where will you travel to first, my Lord?";
             Char2name.text = "";
             Char2speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
@@ -163,7 +148,7 @@ public class Scene4Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
-            Char2speech.text = "I’ll go after Prince Butterbee.";
+            Char2speech.text = "I’ll make way through the Green Kingdom. Kreaty, you may return to the castle.";
         }
         else if (primeInt == 101)
         {
@@ -178,7 +163,7 @@ public class Scene4Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
-            Char2speech.text = "Will Do.";
+            Char2speech.text = "Oh, I'm not the one who's going to need luck! Gwahaha!";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -189,13 +174,13 @@ public class Scene4Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
-            Char2speech.text = "And then Queen Lily.";
+            Char2speech.text = "I’ll make way through the Yellow Kingdom. Kreaty, you may return to the castle.";
         }
 
         else if (primeInt == 201)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "Ok, so the Yellow Kingdom it is.";
+            Char1speech.text = "As you wish, your evilness.";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -211,7 +196,7 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 203)
         {
             Char1name.text = "Kreaty";
-            Char1speech.text = "You got it, Lord Kreatin.";
+            Char1speech.text = "We shall be awaiting your arrival at the dining table, my liege.";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -226,7 +211,7 @@ public class Scene4Dialogue : MonoBehaviour
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "Kreatin";
-        Char2speech.text = "I’m heading to the Green Kingdom to kidnap Queen Lily first.";
+        Char2speech.text = "I’ll take care of that pompous Queen Lily first.";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -238,7 +223,7 @@ public class Scene4Dialogue : MonoBehaviour
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "You";
-        Char2speech.text = "Prince Butterbee gets intimidated easily, so I’ll kidnap him first.";
+        Char2speech.text = "Prince Butterbee is easily intimidated, I'll grab him first.";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);

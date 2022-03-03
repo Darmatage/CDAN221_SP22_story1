@@ -16,6 +16,7 @@ public class Scene2Dialogue : MonoBehaviour
     //public Text Char3speech;
     public GameObject DialogueDisplay;
     public GameObject ArtChar1;
+    public GameObject ArtChar2;
     //public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
@@ -30,7 +31,8 @@ public class Scene2Dialogue : MonoBehaviour
     void Start()
     {         // initial visibility settings
         DialogueDisplay.SetActive(false);
-        ArtChar1.SetActive(false);
+        ArtChar1.SetActive(true);
+        ArtChar2.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -60,40 +62,40 @@ public class Scene2Dialogue : MonoBehaviour
         }
         else if (primeInt == 2)
         {
-            ArtChar1.SetActive(true);
+            ArtChar2.SetActive(true);
             DialogueDisplay.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "I have returned, your evilness.";
+            Char2speech.text = "I have returned with grave news, your majesty.";
         }
         else if (primeInt == 3)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "Para Kreaty, whats the status at the North?";
+            Char1speech.text = "What do you have to report, my loyal minion?";
             Char2name.text = "";
             Char2speech.text = "";
-            //gameHandler.AddPlayerStat(1);
+            //gameHandler.SetplayerStat(0);
         }
         else if (primeInt == 4)
         {
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "Looks like Queen Lily is running a party feast, your evilness.";
+            Char2speech.text = "It appears Queen Lily is hosting a feast, your evilness.";
         }
         else if (primeInt == 5)
         {
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "Prince Butterbee and butterbell was invited.";
+            Char2speech.text = "Prince Butterbee and both their subjects attended as well.";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 6)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "And who else.";
+            Char1speech.text = "Just those two, Lily and ButterBee?";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -102,7 +104,7 @@ public class Scene2Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "Danger Dan as well.";
+            Char2speech.text = "No, my liege. Danger Dan was invited as well.";
         }
         else if (primeInt == 8)
         {
@@ -116,26 +118,26 @@ public class Scene2Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "They didn’t invited you, your evilness.";
+            Char2speech.text = "It seems we weren't extended an invitation..";
         }
         else if (primeInt == 10)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "WHAAAT!!";
+            Char1speech.text = "WHAT!? They know I love parties!";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 11)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "THEY RAN A PARTY AND I’M NOT INVITED!?";
+            Char1speech.text = "How dare they run a royal gathering and exclude ME? KING of the Red Kingdom!";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 12)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "THAT MAKES ME ANGRY!!";
+            Char1speech.text = "This is SUPER INFRUIATING news, minion!!";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -155,30 +157,24 @@ public class Scene2Dialogue : MonoBehaviour
         else if (primeInt == 100)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "That will make up being uninvited.";
+            Char1speech.text = "Go alert all the other minions to start preparing a massive feast!";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 101)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "Para Kreaty, get my minions and set of the feast.";
+            Char1speech.text = "I want enough food to feed the entire castle!";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 102)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "THATS AN ORDER!!";
-            Char2name.text = "";
-            Char2speech.text = "";
-        }
-        else if (primeInt == 103)
-        {
+          ArtChar2.SetActive(false);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "Yes, your evilness!";
+            Char2speech.text = "Yes, your malicousness! Right away!";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -194,23 +190,16 @@ public class Scene2Dialogue : MonoBehaviour
         else if (primeInt == 201)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "You know what, I’m going to cry in my room.";
+            Char1speech.text = "Leave me to my chambers Para Kreaty, I want to be alone...";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 202)
         {
-            Char1name.text = "Kreatin";
-            Char1speech.text = "(SOBBING)";
-            Char2name.text = "";
-            Char2speech.text = "";
-        }
-        else if (primeInt == 203)
-        {
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Para Kreaty";
-            Char2speech.text = "Aww, your evilness.";
+            Char2speech.text = "Of course, your vileness.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -221,7 +210,7 @@ public class Scene2Dialogue : MonoBehaviour
     public void Choice1aFunct()
     {
         Char1name.text = "Kreatin";
-        Char1speech.text = "We’ll set up a feast in our throne.";
+        Char1speech.text = "I know! We'll host a feast of our own!";
         Char2name.text = "";
         Char2speech.text = "";
         primeInt = 99;
@@ -233,7 +222,7 @@ public class Scene2Dialogue : MonoBehaviour
     public void Choice1bFunct()
     {
         Char1name.text = "Kreatin";
-        Char1speech.text = "Being uninvited also breaks my heart.";
+        Char1speech.text = "I see how they really feel about me now...";
         Char2name.text = "";
         Char2speech.text = "";
         primeInt = 199;

@@ -9,7 +9,6 @@ public class GameHandler : MonoBehaviour {
 
         public static int playerStat;
 
-
         public static bool GameisPaused = false;
         public GameObject pauseMenuUI;
         public AudioMixer mixer;
@@ -68,6 +67,9 @@ public class GameHandler : MonoBehaviour {
 
         public void StartGame(){
                 SceneManager.LoadScene("Scene1");
+        }
+        public void Credits(){
+                SceneManager.LoadScene("Credits");
         }
 
         public void RestartGame(){
