@@ -147,7 +147,7 @@ public class Scene4Dialogue : MonoBehaviour
         else if (primeInt == 13)
         {
             Char1name.text = "Kreatin";
-            Char1speech.text = "So where do you want to go first, me Lord?.";
+            Char1speech.text = "So where do you want to go first, me Lord?";
             Char2name.text = "";
             Char2speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
