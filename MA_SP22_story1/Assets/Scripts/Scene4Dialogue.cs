@@ -8,6 +8,7 @@ using UnityEngine.Audio;
 public class Scene4Dialogue : MonoBehaviour
 {
     public int primeInt = 1; // This integer drives game progress!
+    public int kidnap = 0;
     public Text Char1name;
     public Text Char1speech;
     public Text Char2name;

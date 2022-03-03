@@ -54,46 +54,46 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 2){
                ArtChar1.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "Jeda";
-                Char1speech.text = "Wakey wakey, human.";
+                Char1name.text = "ButterBee";
+                Char1speech.text = "King Kreatin!? What are you doing here uninvited?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==3){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Wuh..? What happened?";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "Seems like all I can be is uninvited!";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-                Char1name.text = "Jeda";
-                Char1speech.text = "I know I did not hit you that hard.";
+                Char1name.text = "ButterBee";
+                Char1speech.text = "Oh... so you heard about the festival?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Hit me? Why?";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "Of course! You must think I'm stupid, ButterBee!";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
-                Char1name.text = "Jeda";
-                Char1speech.text = "I am searching for a fugitive. Ragu Fahn.";
+                Char1name.text = "ButterBee";
+                Char1speech.text = "N-no nothing like that! Lily thought you wouldn't be interested is all!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==7){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Why do you think I know anything?";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "You really think I'm going to buy that?";
         }
        else if (primeInt == 8){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Do not play the stupid. You will take me to him.";
+                Char1name.text = "ButterBee";
+                Char1speech.text = "Well, maybe if you werent so intimidating all the time..!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 // Turn off "Next" button, turn on "Choice" buttons
@@ -104,32 +104,44 @@ public void talking(){         // main story function. Players hit next to progr
         }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Then you are no use to me, and must be silenced.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "If you think I was scary before, I'll show you scary!";
         }
        else if (primeInt == 101){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Come back here! Do not think you can hide from me!";
+                Char1name.text = "ButterBee";
+                Char1speech.text = "N-no wait! Im sorry King Kreatin, it wasn't my fault!";
                 Char2name.text = "";
                 Char2speech.text = "";
+              }
+              else if (primeInt == 102){
+                       Char1name.text = "";
+                       Char1speech.text = "";
+                       Char2name.text = "Kreatin";
+                       Char2speech.text = "It's too late for that now! You're coming with my, Prince.";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
         }
 
        else if (primeInt == 200){
-                Char1name.text = "Jeda";
-                Char1speech.text = "Do not think you can fool me, human. Where will we find him?";
-                Char2name.text = "";
-                Char2speech.text = "";
-        }
-       else if (primeInt == 201){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Ragu hangs out in a rough part of town. I'll take you now.";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "No one's going to be missing out on the next feast!";
+        }
+       else if (primeInt == 201){
+                Char1name.text = "ButterBee";
+                Char1speech.text = "*gulp* Next feast?";
+                Char2name.text = "";
+                Char2speech.text = "";
+              }
+              else if (primeInt == 202){
+                       Char1name.text = "";
+                       Char1speech.text = "";
+                       Char2name.text = "Kreatin";
+                       Char2speech.text = "That's right! You're coming with me, pretty boy.";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
@@ -140,8 +152,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1aFunct(){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "I don't know what you're talking about!";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "GWAHAHA! Intimidating you say?";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -151,8 +163,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1bFunct(){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "You";
-                Char2speech.text = "Sure, anything you want... just lay off the club.";
+                Char2name.text = "Kreatin";
+                Char2speech.text = "Theres nothing to be scared of Prince, after all...";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -161,9 +173,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("Scene9");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene2b");
+                SceneManager.LoadScene("Scene9");
         }
 }
