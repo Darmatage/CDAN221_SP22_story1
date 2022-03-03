@@ -141,8 +141,8 @@ public class Scene5Dialogue : MonoBehaviour
         else if (primeInt == 13)
         {
             Char1name.text = "";
-            Char1speech.text = "Lily Lad";
-            Char2name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Lily Lad";
             Char2speech.text = "So what brings you here to our kingdom?";
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
