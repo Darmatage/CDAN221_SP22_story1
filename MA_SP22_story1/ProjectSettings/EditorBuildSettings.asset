@@ -48,6 +48,15 @@ EditorBuildSettings:
     path: Assets/Scenes/End_Lose.unity
     guid: a5c1e82757a78442393ca592ba98764f
   - enabled: 1
+    path: Assets/Scenes/End_Lose2.unity
+    guid: ea331cb6fc21d574c8d2c49c864b52fe
+  - enabled: 1
+    path: Assets/Scenes/End_Lose3.unity
+    guid: 23c1143f6faee8740b6b24b0ee05c72d
+  - enabled: 1
+    path: Assets/Scenes/End_Lose4.unity
+    guid: ce5b0c0ad23460846826931262c726ab
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 5ee6b5c3a294f70489d9e3751ad7f066
   m_configObjects: {}
