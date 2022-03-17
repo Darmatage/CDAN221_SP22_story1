@@ -181,7 +181,12 @@ public class Scene6Dialogue : MonoBehaviour
 
     public void SceneChange1()
     {
+      if(GameHandler.kidnap = true)
+      SceneManager.LoadScene("Scene9");
+
+      if(GameHandler.kidnap = false)
         SceneManager.LoadScene("Scene7");
+        GameHandler.kidnap = true;
     }
     public void SceneChange2()
     {

@@ -2055,7 +2055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HARD-WAY
+  m_Text: LIE
 --- !u!222 &1395311838
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2934,7 +2934,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EASY-WAY
+  m_Text: TRUTH
 --- !u!222 &2110413067
 CanvasRenderer:
   m_ObjectHideFlags: 0

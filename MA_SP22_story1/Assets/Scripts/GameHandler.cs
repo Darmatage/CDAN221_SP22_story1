@@ -10,6 +10,7 @@ public class GameHandler : MonoBehaviour {
         public static int playerStat;
 
         public static bool GameisPaused = false;
+        public static bool kidnap = false;
         public GameObject pauseMenuUI;
         public AudioMixer mixer;
         public static float volumeLevel = 1.0f;
