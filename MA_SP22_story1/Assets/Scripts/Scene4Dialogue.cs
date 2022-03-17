@@ -16,7 +16,13 @@ public class Scene4Dialogue : MonoBehaviour
     //public Text Char3name;
     //public Text Char3speech;
     public GameObject DialogueDisplay;
-    public GameObject ArtChar1;
+    public GameObject ArtCharKreatin1;
+    public GameObject ArtCharKreatin2;
+    public GameObject ArtCharKreatin3;
+    public GameObject ArtCharKreatin4;
+    public GameObject ArtCharKreaty1;
+    public GameObject ArtCharKreaty2;
+    public GameObject ArtCharKreaty3;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -30,7 +36,13 @@ public class Scene4Dialogue : MonoBehaviour
     void Start()
     {         // initial visibility settings
         DialogueDisplay.SetActive(false);
-        ArtChar1.SetActive(false);
+        ArtCharKreatin1.SetActive(false);
+        ArtCharKreatin2.SetActive(false);
+        ArtCharKreatin3.SetActive(false);
+        ArtCharKreatin4.SetActive(false);
+        ArtCharKreaty1.SetActive(true);
+        ArtCharKreaty2.SetActive(false);
+        ArtCharKreaty3.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -60,7 +72,9 @@ public class Scene4Dialogue : MonoBehaviour
         }
         else if (primeInt == 2)
         {
-            ArtChar1.SetActive(true);
+            ArtCharKreatin1.SetActive(true);
+            ArtCharKreaty1.SetActive(false);
+            ArtCharKreaty2.SetActive(true);
             DialogueDisplay.SetActive(true);
             Char1name.text = "Kreaty";
             Char1speech.text = "Here we are at the crossroad.";
@@ -69,6 +83,8 @@ public class Scene4Dialogue : MonoBehaviour
         }
         else if (primeInt == 3)
         {
+            ArtCharKreatin1.SetActive(false);
+            ArtCharKreatin3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
@@ -77,6 +93,8 @@ public class Scene4Dialogue : MonoBehaviour
         }
         else if (primeInt == 4)
         {
+            ArtCharKreaty1.SetActive(true);
+            ArtCharKreaty2.SetActive(false);
             Char1name.text = "Kreaty";
             Char1speech.text = "The left path goes to the Green Kingdom. Queen Lily resides in the swamp palace.";
             Char2name.text = "";
@@ -84,6 +102,8 @@ public class Scene4Dialogue : MonoBehaviour
         }
         else if (primeInt == 5)
         {
+            ArtCharKreaty1.SetActive(false);
+            ArtCharKreaty2.SetActive(true);
             Char1name.text = "Kreaty";
             Char1speech.text = "The right path goes to the Yellow Kingdom. Prince ButterBee lives among his servants.";
             Char2name.text = "";
@@ -92,6 +112,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 6)
         {
+            ArtCharKreaty1.SetActive(true);
+            ArtCharKreaty2.SetActive(false);
             Char1name.text = "Kreaty";
             Char1speech.text = "The Middle Path leads straight to Danger Dan's House.";
             Char2name.text = "";
@@ -100,6 +122,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 7)
         {
+            ArtCharKreatin3.SetActive(false);
+            ArtCharKreatin4.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
@@ -108,6 +132,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 8)
         {
+            ArtCharKreaty1.SetActive(true);
+            ArtCharKreaty2.SetActive(false);
             Char1name.text = "Kreaty";
             Char1speech.text = "Well, he has defeated you many times before...";
             Char2name.text = "";
@@ -132,6 +158,10 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 11)
         {
+            ArtCharKreatin4.SetActive(false);
+            ArtCharKreatin3.SetActive(true);
+            ArtCharKreaty1.SetActive(false);
+            ArtCharKreaty2.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "So where will you travel to first, my Lord?";
             Char2name.text = "";
@@ -145,6 +175,8 @@ public class Scene4Dialogue : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
+            ArtCharKreatin2.SetActive(false);
+            ArtCharKreatin3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
@@ -152,6 +184,8 @@ public class Scene4Dialogue : MonoBehaviour
         }
         else if (primeInt == 101)
         {
+            ArtCharKreaty2.SetActive(false);
+            ArtCharKreaty3.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "Alright, good luck on your mission, your majesty.";
             Char2name.text = "";
@@ -171,6 +205,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 200)
         {
+            ArtCharKreatin3.SetActive(false);
+            ArtCharKreatin2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Kreatin";
@@ -179,6 +215,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 201)
         {
+            ArtCharKreaty2.SetActive(false);
+            ArtCharKreaty3.SetActive(true);
             Char1name.text = "Kreaty";
             Char1speech.text = "As you wish, your evilness.";
             Char2name.text = "";
@@ -195,6 +233,8 @@ public class Scene4Dialogue : MonoBehaviour
 
         else if (primeInt == 203)
         {
+            ArtCharKreaty3.SetActive(false);
+            ArtCharKreaty2.SetActive(true);
             Char1name.text = "Kreaty";
             Char1speech.text = "We shall be awaiting your arrival at the dining table, my liege.";
             Char2name.text = "";
@@ -208,6 +248,8 @@ public class Scene4Dialogue : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
+        ArtCharKreatin3.SetActive(false);
+        ArtCharKreatin2.SetActive(true);
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "Kreatin";
@@ -220,6 +262,7 @@ public class Scene4Dialogue : MonoBehaviour
     }
     public void Choice1bFunct()
     {
+
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "You";
