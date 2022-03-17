@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 338010474}
   - component: {fileID: 338010473}
   - component: {fileID: 338010472}
+  - component: {fileID: 338010469}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -508,6 +509,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &338010469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338010468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b3e93bee2c4f05b42c716793cae50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primeInt: 1
+  Char1name: {fileID: 71927420}
+  Char1speech: {fileID: 1864678773}
+  Char2name: {fileID: 226715917}
+  Char2speech: {fileID: 1354968150}
+  Char3name: {fileID: 1266332487}
+  Char3speech: {fileID: 2078975760}
+  Char4name: {fileID: 711604213}
+  Char4speech: {fileID: 908537546}
+  DialogueDisplay: {fileID: 395887471}
+  ArtChar1: {fileID: 1179998209}
+  ArtChar2: {fileID: 1620161177}
+  ArtChar3: {fileID: 2071716460}
+  ArtChar4: {fileID: 897752788}
+  ArtBG1: {fileID: 191874171}
+  Choice1a: {fileID: 1518790043}
+  Choice1b: {fileID: 182601957}
+  NextScene1Button: {fileID: 1149180576}
+  NextScene2Button: {fileID: 903488326}
+  nextButton: {fileID: 1713385127}
 --- !u!114 &338010472
 MonoBehaviour:
   m_ObjectHideFlags: 0
