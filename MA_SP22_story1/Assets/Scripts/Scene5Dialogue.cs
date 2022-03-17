@@ -15,8 +15,13 @@ public class Scene5Dialogue : MonoBehaviour
     //public Text Char3name;
     //public Text Char3speech;
     public GameObject DialogueDisplay;
-    public GameObject ArtChar1;
-    public GameObject ArtChar2;
+    public GameObject ArtCharKreatin1;
+    public GameObject ArtCharKreatin2;
+    public GameObject ArtCharKreatin3;
+    public GameObject ArtCharKreatin4;
+    public GameObject ArtCharLilylad1;
+    public GameObject ArtCharLilylad2;
+    public GameObject ArtCharLilylad3;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -30,8 +35,13 @@ public class Scene5Dialogue : MonoBehaviour
     void Start()
     {         // initial visibility settings
         DialogueDisplay.SetActive(false);
-        ArtChar1.SetActive(false);
-        ArtChar2.SetActive(false);
+        ArtCharKreatin1.SetActive(false);
+        ArtCharKreatin2.SetActive(false);
+        ArtCharKreatin3.SetActive(false);
+        ArtCharKreatin4.SetActive(false);
+        ArtCharLilylad1.SetActive(false);
+        ArtCharLilylad2.SetActive(false);
+        ArtCharLilylad3.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -61,7 +71,7 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 2)
         {
-            ArtChar1.SetActive(true);
+            ArtCharKreatin1.SetActive(true);
             DialogueDisplay.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "Here it is, the marshy swampland that is the Green Kingdom.";
@@ -70,6 +80,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 3)
         {
+            ArtCharKreatin4.SetActive(true);
+            ArtCharKreatin1.SetActive(false);
             Char1name.text = "Kreatin";
             Char1speech.text = "Queen Lily must be in that fancy building up ahead.";
             Char2name.text = "";
@@ -85,7 +97,7 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 5)
         {
-          ArtChar2.SetActive(true);
+          ArtCharLilylad2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -94,6 +106,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 6)
         {
+            ArtCharKreatin4.SetActive(false);
+            ArtCharKreatin2.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "You must be quite brave to challenge me so carelessly!";
             Char2name.text = "";
@@ -101,6 +115,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 7)
         {
+            ArtCharKreatin2.SetActive(false);
+            ArtCharKreatin1.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "And who are you to have addressed ME, rude little frog?";
             Char2name.text = "";
@@ -108,6 +124,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 8)
         {
+            ArtCharLilylad2.SetActive(false);
+            ArtCharLilylad1.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -115,6 +133,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 9)
         {
+            ArtCharLilylad1.SetActive(false);
+            ArtCharLilylad3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -122,6 +142,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 10)
         {
+            ArtCharLilylad3.SetActive(false);
+            ArtCharLilylad1.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -135,6 +157,8 @@ public class Scene5Dialogue : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin1.SetActive(false);
             Char1name.text = "Kreatin";
             Char1speech.text = "Do you know where she is?";
             Char2name.text = "";
@@ -142,6 +166,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 101)
         {
+            ArtCharLilylad1.SetActive(false);
+            ArtCharLilylad3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -156,6 +182,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 103)
         {
+            ArtCharKreatin2.SetActive(false);
+            ArtCharKreatin4.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "Very wise of you, little frog.";
             Char2name.text = "";
@@ -167,6 +195,8 @@ public class Scene5Dialogue : MonoBehaviour
 
         else if (primeInt == 200)
         {
+            ArtCharLilylad1.SetActive(false);
+            ArtCharLilylad2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
@@ -174,6 +204,8 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 201)
         {
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
             Char1name.text = "Kreatin";
             Char1speech.text = "Oh, I'm soo scared! What can a little frog do?";
             Char2name.text = "";
@@ -207,6 +239,8 @@ public class Scene5Dialogue : MonoBehaviour
     }
     public void Choice1bFunct()
     {
+        ArtCharKreatin1.SetActive(false);
+        ArtCharKreatin3.SetActive(true);
         Char1name.text = "Kreatin";
         Char1speech.text = "Your precious Queen will be coming with me!";
         Char2name.text = "";
