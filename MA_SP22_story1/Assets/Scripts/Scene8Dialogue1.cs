@@ -175,19 +175,24 @@ public void talking(){         // main story function. Players hit next to progr
         public void SceneChange1()
         {
           if(GameHandler.kidnap = true)
-          SceneManager.LoadScene("Scene9");
-
-          if(GameHandler.kidnap = false)
+          {  SceneManager.LoadScene("Scene9");
+        }
+        else
+          {
             SceneManager.LoadScene("Scene5");
             GameHandler.kidnap = true;
         }
+}
+
         public void SceneChange2()
         {
           if(GameHandler.kidnap = true)
-          SceneManager.LoadScene("Scene9");
-
-          if(GameHandler.kidnap = false)
+          {  SceneManager.LoadScene("Scene9");
+        }
+        else
+          {
             SceneManager.LoadScene("Scene5");
             GameHandler.kidnap = true;
         }
+      }
 }
