@@ -62,12 +62,116 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-			   ArtCharBee1.SetActive(true);
+			   ArtCharBee1.SetActive(false);
                 dialogue.SetActive(true);
-                Char1name.text = "ButterBee";
-                Char1speech.text = "This is yet another fine festival, Queen Lily.";
+                Char1speech.text = "The scene opens with the view of the party.";
                 Char2name.text = "";
                 Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(false);
+                dialogue.SetActive(true);
+                Char1speech.text = "The citizens of the Green and Yellow Kingdoms are conversing at the party and having a merry time.";
+                Char2name.text = "";
+                Char2speech.text = "";		
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(false);
+                dialogue.SetActive(true);
+                Char1speech.text = "Butterbells and Workerbees, Lily Lads and Toad Townies, and even the gnomes of the far off Blue Kingdom have come for a visit as well.";
+                Char2name.text = "";
+                Char2speech.text = "";			
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+                dialogue.SetActive(true);
+                Char1speech.text = "Prince Butterbee approaches Queen Lily - a plate of honey in hand.";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "ButterBee";
+                Char1speech.text = "Queen Lily, this party is positively astounding!";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee3.SetActive(true);
+			   ArtCharBee1.SetActive(false);
+                dialogue.SetActive(true);
+				Char1name.text = "ButterBee";
+                Char1speech.text = "It’s been ages since our kingdoms have gotten together for a Royal Friend Festival!";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharQueen1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "Queen Lily";
+                Char1speech.text = "Ohoho~!";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharQueen1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "Queen Lily";
+                Char1speech.text = "Why, of course my dear Butterbee, I only throw the most perfect parties possible~!";
+                Char2name.text = "";
+                Char2speech.text = "";	
+		}
+        else if (primeInt == 2){
+			   ArtCharQueen1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "Queen Lily";
+                Char1speech.text = "Ones such as this shall remain forever in the minds of our guests.";
+                Char2name.text = "";
+                Char2speech.text = "";		
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+			   ArtCharBee3.SetActive(false);
+                dialogue.SetActive(true);
+				Char1name.text = "ButterBee";
+                Char1speech.text = "Y-yes! I wholeheartedly believe you!";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee2.SetActive(true);
+			   ArtCharBee1.SetActive(false);
+                dialogue.SetActive(true);
+				Char1name.text = "ButterBee";
+                Char1speech.text = "But…";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+			   ArtCharBee2.SetActive(false);
+                dialogue.SetActive(true);
+				Char1name.text = "ButterBee";
+                Char1speech.text = "There is one thing that I’m worried about..";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "Queen Lily";
+                Char1speech.text = "Hm?";
+                Char2name.text = "";
+                Char2speech.text = "";
+		}
+        else if (primeInt == 2){
+			   ArtCharBee1.SetActive(true);
+                dialogue.SetActive(true);
+				Char1name.text = "Queen Lily";
+                Char1speech.text = "Are you not enjoying yourself?";
+                Char2name.text = "";
+                Char2speech.text = "";		
         }
         else if (primeInt == 3){
                 dialogue.SetActive(true);
