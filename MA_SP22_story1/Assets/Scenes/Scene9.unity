@@ -415,7 +415,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 338010469}
         m_TargetAssemblyTypeName: Scene9Dialogue, Assembly-CSharp
         m_MethodName: Choice1bFunct
         m_Mode: 1
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 338010469}
         m_TargetAssemblyTypeName: Scene9Dialogue, Assembly-CSharp
         m_MethodName: SceneChange2
         m_Mode: 1
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 338010469}
         m_TargetAssemblyTypeName: Scene9Dialogue, Assembly-CSharp
         m_MethodName: SceneChange1
         m_Mode: 1
@@ -2369,7 +2369,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 338010469}
         m_TargetAssemblyTypeName: Scene9Dialogue, Assembly-CSharp
         m_MethodName: Choice1aFunct
         m_Mode: 1
@@ -2953,7 +2953,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 338010469}
         m_TargetAssemblyTypeName: Scene9Dialogue, Assembly-CSharp
         m_MethodName: talking
         m_Mode: 1
