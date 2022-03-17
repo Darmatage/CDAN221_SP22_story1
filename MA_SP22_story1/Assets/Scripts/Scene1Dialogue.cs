@@ -78,7 +78,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt ==4){
 		   ArtCharQueen1.SetActive(true);
-		   ArtCharBee1.SetActive(false);
+		  
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Queen Lily";
@@ -86,12 +86,16 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 5){
+            ArtCharBee2.SetActive(true);
+            ArtCharBee1.SetActive(false);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "It would seem King Kreatin hasnt made an appearance yet?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 6){
+            ArtCharQueen1.SetActive(false);
+            ArtCharQueen3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Queen Lily";
@@ -99,18 +103,24 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 7){
+            ArtCharBee2.SetActive(false);
+            ArtCharBee4.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "Oh my, Lily. Do you find that a wise decision?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt ==8){
+            ArtCharQueen3.SetActive(false);
+            ArtCharQueen2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Queen Lily";
                 Char2speech.text = "That obnoxious Kreatin is much too disruptive and loud for my party.";
         }
        else if (primeInt == 9){
+            ArtCharQueen2.SetActive(false);
+            ArtCharQueen1.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Queen Lily";
@@ -151,6 +161,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Well it's much too late for that judgment now, young Prince.";
         }
        else if (primeInt == 201){
+            ArtCharBee2.SetActive(false);
+            ArtCharBee4.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "Quite true. I just hope we dont come to regret it...";
                 Char2name.text = "";
@@ -169,6 +181,9 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
+
+            ArtCharBee4.SetActive(false);
+            ArtCharBee3.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "You're right Lily. We are much better off without that villain!";
                 Char2name.text = "";
@@ -180,6 +195,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+
+            ArtCharBee4.SetActive(false);
+            ArtCharBee2.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "I find Kreatin intimidating too, but he should have been invited.";
                 Char2name.text = "";
