@@ -316,7 +316,7 @@ public class Scene6Dialogue : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100){
 				Char1name.text = "King Kreatin";
-                Char1speech.text = "You’re coming with me, Queen!";
+                Char1speech.text = "Whether you like it or not!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
