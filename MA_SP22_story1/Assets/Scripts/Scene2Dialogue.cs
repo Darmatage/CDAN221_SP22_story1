@@ -220,7 +220,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 18){
-				Char1name.text = "";
+            ArtCharKK1.SetActive(false);
+            ArtCharKK3.SetActive(true);
+            ArtCharPK2.SetActive(false);
+            ArtCharPK3.SetActive(true);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "YOU’RE LAAAAAAAAAATE!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -228,7 +232,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 19){
-				Char1name.text = "";
+				Char1name.text = "King Kreatin";
                 Char1speech.text = "Do you have any idea how worried I was! ";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -238,21 +242,25 @@ public class Scene2Dialogue : MonoBehaviour
 		else if (primeInt == 20){
 				Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
+                Char2name.text = "Para Kreaty";
                 Char2speech.text = "I-I beg you for forgiveness, my ferociousness!";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
 		else if (primeInt == 21){
-				Char1name.text = "";
+            ArtCharPK3.SetActive(false);
+            ArtCharPK2.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
+                Char2name.text = "Para Kreaty";
                 Char2speech.text = "But I come bearing news!";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
 		else if (primeInt == 22){
-				Char1name.text = "";
+            ArtCharKK1.SetActive(true);
+            ArtCharKK3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "You come bearing news?";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -260,41 +268,57 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 23){
-				Char1name.text = "";
+            ArtCharKK1.SetActive(false);
+            ArtCharKK3.SetActive(true);
+            ArtCharPK2.SetActive(false);
+            ArtCharPK3.SetActive(true);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "TO MEEEE?!";
                 Char2name.text = "";
                 Char2speech.text = "";
-		}
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 		else if (primeInt == 24){
 				Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
+                Char2name.text = "Para Kreaty";
                 Char2speech.text = "Y.. Yes?";
-		}
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 		else if (primeInt == 25){
-				Char1name.text = "";
+				Char1name.text = "King Kreatin";
                 Char1speech.text = "WONDERFUL! NOW TELL ME!";
                 Char2name.text = "";
                 Char2speech.text = "";
-		}
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 		else if (primeInt == 26){
 				Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
+                Char2name.text = "Para Kreaty";
                 Char2speech.text = "E-eeeek!";
-		}
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 		else if (primeInt == 27){
 				Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "";
+                Char2name.text = "Para Kreaty";
                 Char2speech.text = "T- the Yellow and Green Kingdom has gotten together for…";
-		}
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 		else if (primeInt == 28){
-				Char1name.text = "";
-                Char1speech.text = "";
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "FOR…!!!";
                 Char2name.text = "";
-                Char2speech.text = "FOR…!!!";
-		}
+                Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
 
         else if (primeInt == 2)
         {
