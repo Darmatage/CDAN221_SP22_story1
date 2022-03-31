@@ -130,26 +130,26 @@ public void talking(){         // main story function. Players hit next to progr
 		}
         else if (primeInt == 11) {
                 dialogue.SetActive(true);
-				Char1name.text = "Queen Lily";
-                Char1speech.text = "Ohoho~!";
-                Char2name.text = "";
-                Char2speech.text = "";
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Ohoho~!";
 		}
         else if (primeInt == 12){
 			   ArtCharQueen1.SetActive(true);
                 dialogue.SetActive(true);
-				Char1name.text = "Queen Lily";
-                Char1speech.text = "Why, of course my dear Butterbee, I only throw the most perfect parties possible~!";
-                Char2name.text = "";
-                Char2speech.text = "";	
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Why, of course my dear Butterbee, I only throw the most perfect parties possible~!";	
 		}
         else if (primeInt == 13){
 			   ArtCharQueen1.SetActive(true);
                 dialogue.SetActive(true);
-				Char1name.text = "Queen Lily";
-                Char1speech.text = "Ones such as this shall remain forever in the minds of our guests.";
-                Char2name.text = "";
-                Char2speech.text = "";		
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Ones such as this shall remain forever in the minds of our guests.";		
 		}
         else if (primeInt == 14){
 			   ArtCharBee1.SetActive(true);
@@ -181,18 +181,18 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 17){
 			   ArtCharBee1.SetActive(true);
                 dialogue.SetActive(true);
-				Char1name.text = "Queen Lily";
-                Char1speech.text = "Hm?";
-                Char2name.text = "";
-                Char2speech.text = "";
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Hm?";
 		}
         else if (primeInt == 18){
 			   ArtCharBee1.SetActive(true);
                 dialogue.SetActive(true);
-				Char1name.text = "Queen Lily";
-                Char1speech.text = "Are you not enjoying yourself?";
-                Char2name.text = "";
-                Char2speech.text = "";		
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Are you not enjoying yourself?";		
         }
         else if (primeInt == 19){
 				ArtCharBee4.SetActive(true);
