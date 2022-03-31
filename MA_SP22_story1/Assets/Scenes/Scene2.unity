@@ -1359,8 +1359,8 @@ MonoBehaviour:
   ArtCharPK3: {fileID: 353210736}
   ArtCharKreaty1: {fileID: 257834738}
   ArtCharKreaty2: {fileID: 431784082}
-  ArtCharKreaty3: {fileID: 0}
-  ArtCharKreaty4: {fileID: 0}
+  ArtCharKreaty3: {fileID: 439883501}
+  ArtCharKreaty4: {fileID: 1488781854}
   ArtBG1: {fileID: 1946776421}
   Choice1a: {fileID: 765902278}
   Choice1b: {fileID: 2033103760}
