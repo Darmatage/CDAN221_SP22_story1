@@ -174,7 +174,7 @@ public void talking(){         // main story function. Players hit next to progr
 
         public void SceneChange1()
         {
-          if(GameHandler.kidnap = true)
+          if(GameHandler.kidnap == true)
           {  SceneManager.LoadScene("Scene9");
         }
         else
@@ -186,7 +186,7 @@ public void talking(){         // main story function. Players hit next to progr
 
         public void SceneChange2()
         {
-          if(GameHandler.kidnap = true)
+          if(GameHandler.kidnap == true)
           {  SceneManager.LoadScene("Scene9");
         }
         else
