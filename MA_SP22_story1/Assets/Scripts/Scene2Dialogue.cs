@@ -308,7 +308,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 29){
 				Char1name.text = "";
                 Char1speech.text = "FOR WHAT, MY MINION! SPEAK!";
                 Char2name.text = "";
@@ -316,7 +316,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 30){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -324,7 +324,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 31){
 				Char1name.text = "";
                 Char1speech.text = "...";
                 Char2name.text = "";
@@ -332,7 +332,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 32){
 				Char1name.text = "";
                 Char1speech.text = "I see..";
                 Char2name.text = "";
@@ -340,7 +340,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 33){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -348,7 +348,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 34){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -356,7 +356,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 35){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -364,7 +364,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 36){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -372,7 +372,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 37){
 				Char1name.text = "";
                 Char1speech.text = "Food AND friends..";
                 Char2name.text = "";
@@ -380,7 +380,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 38){
 				Char1name.text = "";
                 Char1speech.text = "And I assume you come bearing the invitation that is so royally meant for me?";
                 Char2name.text = "";
@@ -388,7 +388,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 39){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -396,7 +396,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 40){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -404,7 +404,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 41){
 				Char1name.text = "";
                 Char1speech.text = "WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTT?!";
                 Char2name.text = "";
@@ -412,7 +412,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 42){
 				Char1name.text = "";
                 Char1speech.text = "THIS IS MADNESS!";
                 Char2name.text = "";
@@ -420,7 +420,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 43){
 				Char1name.text = "";
                 Char1speech.text = "TREACHERY!";
                 Char2name.text = "";
@@ -428,7 +428,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 44){
 				Char1name.text = "";
                 Char1speech.text = "TREASON!";
                 Char2name.text = "";
@@ -436,7 +436,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 45){
 				Char1name.text = "";
                 Char1speech.text = "HOW COULD THEY..";
                 Char2name.text = "";
@@ -444,7 +444,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 46){
 				Char1name.text = "";
                 Char1speech.text = "I..";
                 Char2name.text = "";
@@ -452,7 +452,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 47){
 				Char1name.text = "";
                 Char1speech.text = "I THOUGHT WE WERE FRIENDS!";
                 Char2name.text = "";
@@ -460,7 +460,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 48){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -468,7 +468,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 49){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -476,7 +476,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 50){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -484,7 +484,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 51){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -492,7 +492,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 52){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -500,7 +500,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 53){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -508,7 +508,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 54){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -516,7 +516,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 55){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -524,7 +524,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 56){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -532,7 +532,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 57){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -540,7 +540,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 58){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
