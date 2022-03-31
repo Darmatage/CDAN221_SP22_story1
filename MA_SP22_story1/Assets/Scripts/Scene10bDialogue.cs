@@ -23,6 +23,8 @@ public class Scene10bDialogue : MonoBehaviour {
         public GameObject ArtCharKreatin2;
         public GameObject ArtCharKreatin3;
         public GameObject ArtCharKreatin4;
+        public GameObject ArtCharKreatin5;
+        public GameObject ArtCharKreatin6;
         public GameObject ArtCharButterbee1;
         public GameObject ArtCharButterbee2;
         public GameObject ArtCharButterbee3;
@@ -42,13 +44,15 @@ public class Scene10bDialogue : MonoBehaviour {
 
 void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
-        ArtCharQueen1.SetActive(true);
-        ArtCharQueen2.SetActive(false);
+        ArtCharQueen1.SetActive(false);
+        ArtCharQueen2.SetActive(true);
         ArtCharQueen3.SetActive(false);
         ArtCharKreatin1.SetActive(true);
         ArtCharKreatin2.SetActive(false);
         ArtCharKreatin3.SetActive(false);
         ArtCharKreatin4.SetActive(false);
+        ArtCharKreatin5.SetActive(false);
+        ArtCharKreatin6.SetActive(false);
         ArtCharButterbee1.SetActive(true);
         ArtCharButterbee2.SetActive(false);
         ArtCharButterbee3.SetActive(false);
@@ -91,7 +95,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "King Kreatin! Thought you could get away with partying without me?";
         }
        else if (primeInt ==3){
-                Char1name.text = "";
+            ArtCharKreatin1.SetActive(false);
+            ArtCharKreatin3.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "DAN?! How did you get here so fast?";
@@ -102,7 +108,9 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-                Char1name.text = "";
+            ArtCharQueen2.SetActive(false);
+            ArtCharQueen1.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -112,7 +120,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "";
         }
        else if (primeInt == 5){
-                Char1name.text = "";
+            ArtCharDangerDan1.SetActive(false);
+            ArtCharDangerDan2.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -123,7 +133,9 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
-                Char1name.text = "";
+            ArtCharKreatin3.SetActive(false);
+            ArtCharKreatin5.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "So everyone gets to have all the fun leaving Kreatin out of all the parties instead?";
@@ -143,7 +155,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "";
         }
        else if (primeInt == 8){
-                Char1name.text = "";
+            ArtCharDangerDan1.SetActive(true);
+            ArtCharDangerDan2.SetActive(false);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -173,8 +187,8 @@ public void talking(){         // main story function. Players hit next to progr
                   Char4speech.text = "";
           }
           else if (primeInt == 11){
-                  ArtCharQueen1.SetActive(false);
-                   Char1name.text = "ButterBee";
+            ArtCharQueen1.SetActive(false);
+            Char1name.text = "ButterBee";
                    Char1speech.text = "Wait Dan! I think there's been a misunderstanding..!";
                    Char2name.text = "";
                    Char2speech.text = "";
@@ -184,7 +198,11 @@ public void talking(){         // main story function. Players hit next to progr
                    Char4speech.text = "";
            }
           else if (primeInt == 12){
-                   Char1name.text = "ButterBee";
+            ArtCharButterbee1.SetActive(false);
+            ArtCharButterbee3.SetActive(true);
+            ArtCharKreatin5.SetActive(false);
+            ArtCharKreatin2.SetActive(true);
+            Char1name.text = "ButterBee";
                    Char1speech.text = "It seems he just wanted to get to know everyone...";
                    Char2name.text = "";
                    Char2speech.text = "";
@@ -194,7 +212,9 @@ public void talking(){         // main story function. Players hit next to progr
                    Char4speech.text = "";
            }
            else if (primeInt == 13){
-                    Char1name.text = "ButterBee";
+            ArtCharButterbee1.SetActive(true);
+            ArtCharButterbee3.SetActive(false);
+            Char1name.text = "ButterBee";
                     Char1speech.text = "But he did not know how to express himself.";
                     Char2name.text = "";
                     Char2speech.text = "";
@@ -204,7 +224,9 @@ public void talking(){         // main story function. Players hit next to progr
                     Char4speech.text = "";
              }
              else if (primeInt == 14){
-                      Char1name.text = "";
+            ArtCharDangerDan1.SetActive(false);
+            ArtCharDangerDan3.SetActive(true);
+            Char1name.text = "";
                       Char1speech.text = "";
                       Char2name.text = "";
                       Char2speech.text = "";
@@ -230,7 +252,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "So wait, you don't want to fight me?";
         }
        else if (primeInt == 101){
-                Char1name.text = "";
+            ArtCharKreatin1.SetActive(false);
+            ArtCharKreatin4.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "I just wanted to enjoy my feast with company.";
@@ -240,7 +264,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "";
               }
           else if (primeInt == 102){
-                 Char1name.text = "";
+            ArtCharDangerDan3.SetActive(false);
+            ArtCharDangerDan2.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -250,7 +276,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "Huh. I know exactly how to test your deceptiveness...";
         }
         else if (primeInt == 103){
-               Char1name.text = "";
+            ArtCharDangerDan2.SetActive(false);
+            ArtCharDangerDan1.SetActive(true);
+            Char1name.text = "";
               Char1speech.text = "";
               Char2name.text = "";
               Char2speech.text = "";
@@ -260,7 +288,9 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "If you come go karting with us this weekend!";
         }
         else if (primeInt == 104){
-               Char1name.text = "";
+            ArtCharKreatin5.SetActive(true);
+            ArtCharKreatin4.SetActive(false);
+            Char1name.text = "";
               Char1speech.text = "";
               Char2name.text = "Kreatin";
               Char2speech.text = "Really? You're on Dan, I will win that race!";
@@ -270,7 +300,9 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "";
         }
         else if (primeInt == 105){
-               Char1name.text = "ButterBee";
+            ArtCharButterbee1.SetActive(false);
+            ArtCharButterbee2.SetActive(true);
+            Char1name.text = "ButterBee";
               Char1speech.text = "Ah, saving the day again Dan haha!";
               Char2name.text = "";
               Char2speech.text = "";
@@ -280,7 +312,11 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "";
         }
         else if (primeInt == 106){
-               Char1name.text = "";
+            ArtCharKreatin5.SetActive(false);
+            ArtCharKreatin2.SetActive(true);
+            ArtCharDangerDan2.SetActive(true);
+            ArtCharDangerDan1.SetActive(false);
+            Char1name.text = "";
               Char1speech.text = "";
               Char2name.text = "";
               Char2speech.text = "";
@@ -290,7 +326,9 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "No way! It was all thanks to you ButterBee.";
         }
         else if (primeInt == 107){
-               Char1name.text = "";
+            ArtCharDangerDan2.SetActive(false);
+            ArtCharDangerDan1.SetActive(true);
+            Char1name.text = "";
               Char1speech.text = "";
               Char2name.text = "";
               Char2speech.text = "";
@@ -301,7 +339,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
         else if (primeInt == 108){
           ArtCharDangerDan1.SetActive(false);
-               Char1name.text = "ButterBee";
+           ArtCharButterbee2.SetActive(false);
+           ArtCharButterbee4.SetActive(true);
+            Char1name.text = "ButterBee";
               Char1speech.text = "Well then, shall we Kreatin?";
               Char2name.text = "";
               Char2speech.text = "";
@@ -311,7 +351,9 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "";
         }
         else if (primeInt == 109){
-               Char1name.text = "";
+            ArtCharKreatin2.SetActive(false);
+            ArtCharKreatin1.SetActive(true);
+            Char1name.text = "";
               Char1speech.text = "";
               Char2name.text = "Kreatin";
               Char2speech.text = "Let's dig in!";
@@ -324,7 +366,8 @@ public void talking(){         // main story function. Players hit next to progr
               NextScene1Button.SetActive(true);
         }
        else if (primeInt == 200){
-                Char1name.text = "";
+            
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "Ill rip you to shreds, you big blue bloke!";
@@ -334,7 +377,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char4speech.text = "";
         }
        else if (primeInt == 201){
-                Char1name.text = "";
+            ArtCharDangerDan1.SetActive(true);
+            ArtCharDangerDan3.SetActive(false);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -360,7 +405,9 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                Char1name.text = "";
+        ArtCharKreatin2.SetActive(false);
+        ArtCharKreatin1.SetActive(true);
+        Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "No wait! Its true! Maybe I shouldn't have kidnapped them but...";
@@ -375,7 +422,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "";
+        ArtCharKreatin2.SetActive(false);
+        ArtCharKreatin5.SetActive(true);
+        Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Kreatin";
                 Char2speech.text = "What do I care of you fools below me? you ruined my feast!";
