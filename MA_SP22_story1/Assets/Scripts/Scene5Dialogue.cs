@@ -617,7 +617,7 @@ public class Scene5Dialogue : MonoBehaviour
 		else if (primeInt == 110){
 			ArtCharKreaty3.SetActive(false);
 			ArtCharKreaty1.SetActive(true);
-			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin4.SetActive(false);
 			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "HA! He's gone, now's our chance!";

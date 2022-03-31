@@ -822,6 +822,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 216){
+			ArtCharLilylad2.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -835,9 +836,9 @@ public class Scene5Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "";
-            Char2speech.text = "Kreaty";
-			Char3name.text = "YOUR MAJESTY!!!";
-			Char3speech.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Kreaty";
+			Char3speech.text = "YOUR MAJESTY!!!";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
