@@ -963,7 +963,7 @@ public class Scene3Dialogue : MonoBehaviour
     {
         SceneManager.LoadScene("Scene4");
     }
-    public void SceneChange2()
+	public void SceneChange2()
     {
         SceneManager.LoadScene("End_Lose");
     }
