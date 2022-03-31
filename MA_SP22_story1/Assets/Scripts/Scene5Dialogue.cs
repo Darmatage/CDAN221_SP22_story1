@@ -99,7 +99,7 @@ public class Scene5Dialogue : MonoBehaviour
         }
         else if (primeInt == 4)
         {
-            ArtCharKreaty1.SetActive(false);
+            ArtCharKreaty3.SetActive(false);
             ArtCharKreaty2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
