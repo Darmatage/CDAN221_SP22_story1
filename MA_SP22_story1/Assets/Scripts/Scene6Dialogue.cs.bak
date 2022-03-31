@@ -99,7 +99,198 @@ public class Scene6Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
 		
+	else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
         else if (primeInt == 8)
         {
             ArtCharKreatin1.SetActive(false);

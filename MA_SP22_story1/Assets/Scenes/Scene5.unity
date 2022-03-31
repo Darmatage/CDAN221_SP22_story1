@@ -2377,7 +2377,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 37
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2388,7 +2388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LIE
+  m_Text: SNEAKY TIME
 --- !u!222 &1240216056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2618,7 +2618,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2629,7 +2629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TRUTH
+  m_Text: FORCE YOUR WAY
 --- !u!222 &1374666317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2775,8 +2775,8 @@ MonoBehaviour:
   Char1speech: {fileID: 16427665}
   Char2name: {fileID: 1116747364}
   Char2speech: {fileID: 1373619632}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
+  Char3name: {fileID: 1911679823}
+  Char3speech: {fileID: 1069387171}
   DialogueDisplay: {fileID: 1924471377}
   ArtCharKreatin1: {fileID: 904681654}
   ArtCharKreatin2: {fileID: 490201208}
