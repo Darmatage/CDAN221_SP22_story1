@@ -2175,7 +2175,7 @@ GameObject:
   - component: {fileID: 907828014}
   - component: {fileID: 907828013}
   m_Layer: 5
-  m_Name: TextChar2_Speech (1)
+  m_Name: TextChar3_Speech
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3312,8 +3312,8 @@ MonoBehaviour:
   Char1speech: {fileID: 16427665}
   Char2name: {fileID: 1116747364}
   Char2speech: {fileID: 1373619632}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
+  Char3name: {fileID: 1765567791}
+  Char3speech: {fileID: 907828013}
   DialogueDisplay: {fileID: 1924471377}
   ArtCharKreatin1: {fileID: 904681654}
   ArtCharKreatin2: {fileID: 1234754280}
