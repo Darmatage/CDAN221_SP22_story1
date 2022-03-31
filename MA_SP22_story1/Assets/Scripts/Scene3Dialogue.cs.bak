@@ -755,8 +755,6 @@ public class Scene3Dialogue : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "Parakreaty";
             Char2speech.text = "How's.. pitifulness?";
-			Char3name.text = "";
-			Char3speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);

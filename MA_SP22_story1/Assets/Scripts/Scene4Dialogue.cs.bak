@@ -493,10 +493,10 @@ public class Scene4Dialogue : MonoBehaviour
     public void Choice1bFunct()
     {
 
-        Char1name.text = "King Kreatin";
-        Char1speech.text = "Hmmrhmm.. I know who exactly to go after first..!";
+        Char1name.text = "";
+        Char1speech.text = "King Kreatin";
         Char2name.text = "";
-        Char2speech.text = "";
+        Char2speech.text = "Hmmrhmm.. I know who exactly to go after first..!";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
