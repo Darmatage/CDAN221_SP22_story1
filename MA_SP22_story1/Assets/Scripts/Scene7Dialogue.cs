@@ -709,6 +709,8 @@ public class Scene7Dialogue : MonoBehaviour
         Char1name.text = "King Kreatin";
 		ArtCharKreatin4.SetActive(false);
 		ArtCharKreatin3.SetActive(true);
+		ArtCharKreaty3.SetActive(false);
+		ArtCharKreaty4.SetActive(true);
 		Char1speech.text = "CLEARLY YOU WANT TO DO THIS THE HARD WAY, YOU COWARD!";
         Char2name.text = "";
         Char2speech.text = "";
