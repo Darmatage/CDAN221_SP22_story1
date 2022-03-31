@@ -22,6 +22,8 @@ public class Scene2Dialogue : MonoBehaviour
     public GameObject ArtCharPK1;
     public GameObject ArtCharPK2;
     public GameObject ArtCharPK3;
+    public GameObject ArtCharKreaty1;
+    public GameObject ArtCharKreaty2;
     //public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
@@ -43,6 +45,8 @@ public class Scene2Dialogue : MonoBehaviour
         ArtCharPK1.SetActive(false);
         ArtCharPK2.SetActive(false);
         ArtCharPK3.SetActive(false);
+        ArtCharKreaty1.SetActive(true);
+        ArtCharKreaty2.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -72,6 +76,7 @@ public class Scene2Dialogue : MonoBehaviour
         }
         else if (primeInt == 2)
         {
+            
             ArtCharPK2.SetActive(true);
             DialogueDisplay.SetActive(true);
             Char1name.text = "";
@@ -146,6 +151,8 @@ public class Scene2Dialogue : MonoBehaviour
             ArtCharKK3.SetActive(true);
             ArtCharPK1.SetActive(false);
             ArtCharPK3.SetActive(true);
+            ArtCharKreaty1.SetActive(false);
+            ArtCharKreaty2.SetActive(true);
             Char1name.text = "Kreatin";
             Char1speech.text = "WHAT!? They know I love parties!";
             Char2name.text = "";
