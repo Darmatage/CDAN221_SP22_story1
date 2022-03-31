@@ -148,14 +148,14 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "Queen Lily";
-                  Char3speech.text = "Wait Dan! I think there's been a misunderstanding..!";
+                  Char3speech.text = "Gladly, wish I could have left sooner!";
                   Char4name.text = "";
                   Char4speech.text = "";
           }
           else if (primeInt == 11){
-            ArtChar3.SetActive(false);
+                  ArtChar3.SetActive(false);
                    Char1name.text = "ButterBee";
-                   Char1speech.text = "It seems he just, wanted to get to know everyone...";
+                   Char1speech.text = "Wait Dan! I think there's been a misunderstanding..!";
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "";
@@ -163,8 +163,17 @@ public void talking(){         // main story function. Players hit next to progr
                    Char4name.text = "";
                    Char4speech.text = "";
            }
-           else if (primeInt == 12){
-             ArtChar1.SetActive(false);
+          else if (primeInt == 12){
+                   Char1name.text = "ButterBee";
+                   Char1speech.text = "It seems he just wanted to get to know everyone...";
+                   Char2name.text = "";
+                   Char2speech.text = "";
+                   Char3name.text = "";
+                   Char3speech.text = "";
+                   Char4name.text = "";
+                   Char4speech.text = "";
+           }
+           else if (primeInt == 13){
                     Char1name.text = "ButterBee";
                     Char1speech.text = "But he did not know how to express himself.";
                     Char2name.text = "";
@@ -174,7 +183,7 @@ public void talking(){         // main story function. Players hit next to progr
                     Char4name.text = "";
                     Char4speech.text = "";
              }
-             else if (primeInt == 13){
+             else if (primeInt == 14){
                       Char1name.text = "";
                       Char1speech.text = "";
                       Char2name.text = "";
@@ -219,9 +228,6 @@ public void talking(){         // main story function. Players hit next to progr
                 Char3speech.text = "";
                 Char4name.text = "Danger Dan";
                 Char4speech.text = "Huh. I know exactly how to test your deceptiveness...";
-                nextButton.SetActive(false);
-                allowSpace = false;
-                NextScene1Button.SetActive(true);
         }
         else if (primeInt == 103){
                Char1name.text = "";
@@ -232,20 +238,16 @@ public void talking(){         // main story function. Players hit next to progr
               Char3speech.text = "";
               Char4name.text = "Danger Dan";
               Char4speech.text = "If you come go karting with us this weekend!";
-              nextButton.SetActive(false);
-              allowSpace = false;
         }
         else if (primeInt == 104){
                Char1name.text = "";
-              Char1speech.text = "Kreatin";
-              Char2name.text = "Really? You're on Dan, I will win that race!";
-              Char2speech.text = "";
+              Char1speech.text = "";
+              Char2name.text = "Kreatin";
+              Char2speech.text = "Really? You're on Dan, I will win that race!";
               Char3name.text = "";
               Char3speech.text = "";
               Char4name.text = "";
               Char4speech.text = "";
-              nextButton.SetActive(false);
-              allowSpace = false;
         }
         else if (primeInt == 105){
                Char1name.text = "ButterBee";
@@ -256,8 +258,6 @@ public void talking(){         // main story function. Players hit next to progr
               Char3speech.text = "";
               Char4name.text = "";
               Char4speech.text = "";
-              nextButton.SetActive(false);
-              allowSpace = false;
         }
         else if (primeInt == 106){
                Char1name.text = "";
@@ -268,8 +268,6 @@ public void talking(){         // main story function. Players hit next to progr
               Char3speech.text = "";
               Char4name.text = "Danger Dan";
               Char4speech.text = "No way! It was all thanks to you ButterBee.";
-              nextButton.SetActive(false);
-              allowSpace = false;
         }
         else if (primeInt == 107){
                Char1name.text = "";
@@ -279,11 +277,10 @@ public void talking(){         // main story function. Players hit next to progr
               Char3name.text = "";
               Char3speech.text = "";
               Char4name.text = "Danger Dan";
-              Char4speech.text = "Alright, I'm out of here fellas. Have fun with you feast of only meat.";
-              nextButton.SetActive(false);
-              allowSpace = false;
+              Char4speech.text = "Alright, I'm out of here fellas. Have fun with your mukbang!";
         }
         else if (primeInt == 108){
+          ArtChar4.SetActive(false);
                Char1name.text = "ButterBee";
               Char1speech.text = "Well then, shall we Kreatin?";
               Char2name.text = "";
@@ -292,8 +289,6 @@ public void talking(){         // main story function. Players hit next to progr
               Char3speech.text = "";
               Char4name.text = "";
               Char4speech.text = "";
-              nextButton.SetActive(false);
-              allowSpace = false;
         }
         else if (primeInt == 109){
                Char1name.text = "";
@@ -376,7 +371,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Win");
+               SceneManager.LoadScene("End_Win");
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("End_Lose");
