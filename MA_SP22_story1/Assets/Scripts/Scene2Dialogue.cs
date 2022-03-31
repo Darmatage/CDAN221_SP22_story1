@@ -19,6 +19,8 @@ public class Scene2Dialogue : MonoBehaviour
     public GameObject ArtCharKK2;
     public GameObject ArtCharKK3;
     public GameObject ArtCharKK4;
+	public GameObject ArtCharKK5;
+	public GameObject ArtCharKK6;
     public GameObject ArtCharPK1;
     public GameObject ArtCharPK2;
     public GameObject ArtCharPK3;
@@ -44,6 +46,8 @@ public class Scene2Dialogue : MonoBehaviour
         ArtCharKK2.SetActive(false);
         ArtCharKK3.SetActive(false);
         ArtCharKK4.SetActive(false);
+		ArtCharKK5.SetActive(false);
+		ArtCharKK6.SetActive(false);
         ArtCharPK1.SetActive(false);
         ArtCharPK2.SetActive(false);
         ArtCharPK3.SetActive(false);
@@ -434,7 +438,23 @@ public class Scene2Dialogue : MonoBehaviour
 		}
 		else if (primeInt == x){
 				Char1name.text = "";
-                Char1speech.text = "";
+                Char1speech.text = "HOW COULD THEY..";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "I..";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == x){
+				Char1name.text = "";
+                Char1speech.text = "I THOUGHT WE WERE FRIENDS!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -444,23 +464,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
-		}
-		else if (primeInt == x){
-				Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "";
-				Char3speech.text = "";
-		}
-		else if (primeInt == x){
-				Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char2speech.text = "What’s more, your terrifyingness, is that they intentionally -";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
