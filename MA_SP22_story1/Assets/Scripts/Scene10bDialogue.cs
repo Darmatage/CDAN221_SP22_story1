@@ -16,10 +16,20 @@ public class Scene10bDialogue : MonoBehaviour {
         public Text Char4name;
         public Text Char4speech;
         public GameObject DialogueDisplay;
-        public GameObject ArtChar1;
-        public GameObject ArtChar2;
-        public GameObject ArtChar3;
-        public GameObject ArtChar4;
+        public GameObject ArtCharQueen1;
+        public GameObject ArtCharQueen2;
+        public GameObject ArtCharQueen3;
+        public GameObject ArtCharKreatin1;
+        public GameObject ArtCharKreatin2;
+        public GameObject ArtCharKreatin3;
+        public GameObject ArtCharKreatin4;
+        public GameObject ArtCharButterbee1;
+        public GameObject ArtCharButterbee2;
+        public GameObject ArtCharButterbee3;
+        public GameObject ArtCharButterbee4;
+        public GameObject ArtCharDangerDan1;
+        public GameObject ArtCharDangerDan2;
+        public GameObject ArtCharDangerDan3;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -32,10 +42,20 @@ public class Scene10bDialogue : MonoBehaviour {
 
 void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
-        ArtChar1.SetActive(true);
-        ArtChar2.SetActive(true);
-        ArtChar3.SetActive(true);
-        ArtChar4.SetActive(false);
+        ArtCharQueen1.SetActive(true);
+        ArtCharQueen2.SetActive(false);
+        ArtCharQueen3.SetActive(false);
+        ArtCharKreatin1.SetActive(true);
+        ArtCharKreatin2.SetActive(false);
+        ArtCharKreatin3.SetActive(false);
+        ArtCharKreatin4.SetActive(false);
+        ArtCharButterbee1.SetActive(true);
+        ArtCharButterbee2.SetActive(false);
+        ArtCharButterbee3.SetActive(false);
+        ArtCharButterbee4.SetActive(false);
+        ArtCharDangerDan1.SetActive(false);
+        ArtCharDangerDan2.SetActive(false);
+        ArtCharDangerDan3.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -59,7 +79,7 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar4.SetActive(true);
+               ArtCharDangerDan1.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -153,7 +173,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char4speech.text = "";
           }
           else if (primeInt == 11){
-                  ArtChar3.SetActive(false);
+                  ArtCharQueen1.SetActive(false);
                    Char1name.text = "ButterBee";
                    Char1speech.text = "Wait Dan! I think there's been a misunderstanding..!";
                    Char2name.text = "";
@@ -280,7 +300,7 @@ public void talking(){         // main story function. Players hit next to progr
               Char4speech.text = "Alright, I'm out of here fellas. Have fun with your mukbang!";
         }
         else if (primeInt == 108){
-          ArtChar4.SetActive(false);
+          ArtCharDangerDan1.SetActive(false);
                Char1name.text = "ButterBee";
               Char1speech.text = "Well then, shall we Kreatin?";
               Char2name.text = "";
