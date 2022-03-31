@@ -215,7 +215,7 @@ public class Scene5Dialogue : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Lily Lad";
-            Char2speech.text = "How dare you attempt such a baltant assault against our Kingdom!";
+            Char2speech.text = "How dare you attempt such a blatant assault against our Kingdom!";
         }
         else if (primeInt == 201)
         {
