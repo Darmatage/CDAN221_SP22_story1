@@ -27,7 +27,8 @@ public class Scene7Dialogue : MonoBehaviour
     public GameObject ArtCharKreaty4;
 	public GameObject ArtCharButterbell1;
 	public GameObject ArtCharButterbell2;
-    public GameObject ArtBG1;
+	public GameObject ArtCharButterbell3;
+	public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
     public GameObject NextScene1Button;
@@ -52,7 +53,8 @@ public class Scene7Dialogue : MonoBehaviour
         ArtCharKreaty4.SetActive(false);
 		ArtCharButterbell1.SetActive(false);
 		ArtCharButterbell2.SetActive(false);
-        ArtBG1.SetActive(true);
+		ArtCharButterbell3.SetActive(false);
+		ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -105,7 +107,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 5){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(true);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Here we are at the Yellow Kingdom..!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -113,7 +117,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 6){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty3.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "The sweet, sweet smell of honey is in the air..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -121,7 +129,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 7){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "I could get used to being here..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -129,7 +139,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 8){
-				Char1name.text = "";
+			ArtCharKreaty3.SetActive(false);
+			ArtCharKreaty4.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -137,7 +149,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "S-Sire!! You wouldn’t abandon the Red Kingdom for this honey paradise?!";
 		}
 		else if (primeInt == 9){
-				Char1name.text = "";
+			ArtCharKreaty4.SetActive(false);
+			ArtCharKreaty2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -145,7 +159,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "Surely, we’re better than these buzzing bees..";
 		}
 		else if (primeInt == 10){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin5.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "OF COURSE WE ARE!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -153,7 +169,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 11){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin5.SetActive(false);
+			ArtCharKreatin6.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "But.. honey is one of my favorite snacks.. I shall take some home with me!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -161,7 +179,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 12){
-				Char1name.text = "";
+			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -169,7 +189,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "O-of course, sire!";
 		}
 		else if (primeInt == 13){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin6.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Now, we have to figure out a way to get up to Yellow Castle..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -177,7 +199,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 14){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Ah, over there!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -185,6 +209,7 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 15){
+			ArtCharButterbell1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbell";
@@ -193,7 +218,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 16){
-				Char1name.text = "";
+			ArtCharButterbell1.SetActive(false);
+			ArtCharButterbell2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbell";
                 Char2speech.text = "EEEEK!";
@@ -209,7 +236,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 18){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "YES THAT HAS BEEN ESTABLISHED!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -217,7 +246,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 19){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Now QUIT your quivering, you buzzing fool!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -241,7 +272,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 22){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Then WHY are you all the way down here on the ground instead of up in your little honey castle, eh?!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -257,7 +290,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 24){
-				Char1name.text = "";
+			ArtCharButterbell2.SetActive(false);
+			ArtCharButterbell1.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbell";
                 Char2speech.text = "I’m the one who lets visitors up and down from the treetops..!";
@@ -265,7 +300,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 25){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin5.SetActive(true);
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty4.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "GASP!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -273,7 +312,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 26){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin5.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			ArtCharKreaty4.SetActive(false);
+			ArtCharKreaty3.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "You have to let us up, then!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -281,7 +324,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 27){
-				Char1name.text = "";
+			ArtCharButterbell1.SetActive(false);
+			ArtCharButterbell2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbell";
                 Char2speech.text = "B-but..!";
@@ -305,7 +350,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 30){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "I think.. A little CONVINCING.. Is in order..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -328,7 +375,11 @@ public class Scene7Dialogue : MonoBehaviour
         }
         // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
+			ArtCharKreaty4.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "If you don’t let us up right now..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -336,7 +387,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 101){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty4.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "I’LL SHOW YOU WHAT A FOREST FIRE REALLY LOOKS LIKE!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -376,7 +431,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "Uh oh!";
 		}
 		else if (primeInt == 106){
-				Char1name.text = "";
+			ArtCharKreaty4.SetActive(false);
+			ArtCharKreaty2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -392,7 +449,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 108){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
+			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "...";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -417,7 +478,10 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "It sounds like..";
 		}
 		else if (primeInt == 111){
-				Char1name.text = "";
+			
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty4.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -425,7 +489,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "BUZZERBELLS?!";
 		}
 		else if (primeInt == 112){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin5.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "THE YELLOW WARRIORS?!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -454,7 +520,9 @@ public class Scene7Dialogue : MonoBehaviour
         }
 
         else if (primeInt == 200){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "I seek a proper audience with Prince Butterbee in regards to…";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -462,7 +530,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 201){
-				Char1name.text = "King Kreatin";
+			ArtCharKreaty3.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Regards to…";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -470,7 +540,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 202){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Erhm..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -478,7 +550,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 203){
-				Char1name.text = "";
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -486,7 +560,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "(The Royal Friend Festival..?)";
 		}
 		else if (primeInt == 204){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "THE ROYAL FRIEND FESTIVAL!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -494,7 +570,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 205){
-				Char1name.text = "";
+			ArtCharButterbell2.SetActive(false);
+			ArtCharButterbell1.SetActive(true);
+			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "ButterBell";
                 Char2speech.text = "T-the Royal Friend Festival..";
@@ -510,7 +590,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 207){
-				Char1name.text = "";
+			ArtCharButterbell1.SetActive(false);
+			ArtCharButterbell3.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "ButterBell";
                 Char2speech.text = "You.. weren’t there, were you?";
@@ -518,7 +600,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 208){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "NO I WAS NOT!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -526,7 +610,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 209){
-				Char1name.text = "";
+			ArtCharButterbell3.SetActive(false);
+			ArtCharButterbell2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "ButterBell";
                 Char2speech.text = "EEEEEEP!";
@@ -534,7 +620,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 210){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "And.. I want to talk to Prince Butterbee about it!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -542,7 +630,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 211){
-				Char1name.text = "King Kreatin";
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "P.. puhhh…";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -550,7 +640,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 212){
-				Char1name.text = "King Kreatin";
+			ArtCharButterbell2.SetActive(false);
+			ArtCharButterbell3.SetActive(true);
+			Char1name.text = "King Kreatin";
                 Char1speech.text = "Puhhhhllll… leaa…";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -558,7 +650,9 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 213){
-				Char1name.text = "";
+			ArtCharKreaty1.SetActive(false);
+			ArtCharKreaty2.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -566,7 +660,11 @@ public class Scene7Dialogue : MonoBehaviour
 				Char3speech.text = "He’s trying to say “please”.";
 		}
 		else if (primeInt == 214){
-				Char1name.text = "";
+			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty1.SetActive(true);
+			ArtCharButterbell3.SetActive(false);
+			ArtCharButterbell1.SetActive(true);
+			Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "ButterBell";
                 Char2speech.text = "Oh..! If.. that’s the case.. Then..";
@@ -591,7 +689,9 @@ public class Scene7Dialogue : MonoBehaviour
 		}
         else if (primeInt == 217)
         {
-            Char1name.text = "King Kreatin";
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
+			Char1name.text = "King Kreatin";
             Char1speech.text = "Erhhhhh... sureee...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -607,7 +707,9 @@ public class Scene7Dialogue : MonoBehaviour
     public void Choice1aFunct()
     {
         Char1name.text = "King Kreatin";
-        Char1speech.text = "CLEARLY YOU WANT TO DO THIS THE HARD WAY, YOU COWARD!";
+		ArtCharKreatin4.SetActive(false);
+		ArtCharKreatin3.SetActive(true);
+		Char1speech.text = "CLEARLY YOU WANT TO DO THIS THE HARD WAY, YOU COWARD!";
         Char2name.text = "";
         Char2speech.text = "";
 		Char3name.text = "";
@@ -621,7 +723,7 @@ public class Scene7Dialogue : MonoBehaviour
     public void Choice1bFunct()
     {
         Char1name.text = "King Kreatin";
-        Char1speech.text = "Perhaps I let my motives remain unclear!";
+		Char1speech.text = "Perhaps I let my motives remain unclear!";
         Char2name.text = "";
         Char2speech.text = "";
 		Char3name.text = "";
