@@ -24,10 +24,14 @@ public class Scene6Dialogue : MonoBehaviour
     public GameObject ArtCharQueen1;
     public GameObject ArtCharQueen2;
     public GameObject ArtCharQueen3;
+	public GameObject ArtCharLilylad2;
     public GameObject ArtCharKreaty1;
     public GameObject ArtCharKreaty2;
     public GameObject ArtCharKreaty3;
     public GameObject ArtCharKreaty4;
+	public GameObject ArtCharPK1;
+    public GameObject ArtCharPK2;
+    public GameObject ArtCharPK3;
     //public GameObject ArtChar2;
     public GameObject ArtBG1;
     public GameObject Choice1a;
@@ -48,9 +52,13 @@ public class Scene6Dialogue : MonoBehaviour
         ArtCharKreatin4.SetActive(false);
 		ArtCharKreatin5.SetActive(false);
         ArtCharKreatin6.SetActive(false);
+		ArtCharPK1.SetActive(false);
+        ArtCharPK2.SetActive(false);
+        ArtCharPK3.SetActive(false);
         ArtCharQueen1.SetActive(false);
         ArtCharQueen2.SetActive(false);
-        ArtCharQueen3.SetActive(true);
+        ArtCharQueen3.SetActive(false);
+		ArtCharLilylad2.SetActive(false);
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty2.SetActive(false);
         ArtCharKreaty3.SetActive(false);
@@ -99,12 +107,203 @@ public class Scene6Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
+		else if (primeInt == 4){
+				Char1name.text = "";
+                Char1speech.text = "Stone pillars line the edge of the room, there are vines hanging down from the ceiling..";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 5){
+				Char1name.text = "";
+                Char1speech.text = "Queen Lily is at her throne.";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 6){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Ah.. another beautiful day..";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 7){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Last night’s festival could have been better though..";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 8){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "If only I had brought out my special Lotus Cake.";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 9){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Hm..";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 10){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "W-What’s with that fool, inviting me to his own feast?";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 11){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Doesn’t he know that he’s absolutely mannerless?";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 12){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "He doesn’t deserve to have a royal feast with me!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 13){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "OH, BUT I DO!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 14){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "EEK!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 15){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "K-King Krumpet?!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 16){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "KREATIN!!!!!!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}else if (primeInt == 17){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "You’re doing that on purpose!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 18){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Perhaps I am..!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
 		
-        else if (primeInt == 8)
+		else if (primeInt == 19){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Regardless.. How did you get past my guards?!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 20){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "SIMPLE!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 21){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "It’s called a SECRET!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 22){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Curse you, Kreatin..!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 23){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Lily Lotus, surely you got my invitation?";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 24){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "I’m holding a royal feast in celebration of my.. Acquaintances.. Of the other kingdoms!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 25){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "And you’re one of my esteemed guests!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 26){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "I would never attend a feast of yours, King Creep!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 27){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Oh, but you WILL!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+        else if (primeInt == 28)
         {
             ArtCharKreatin1.SetActive(false);
             ArtCharKreatin3.SetActive(true);
-            Char1name.text = "Kreatin";
+            Char1name.text = "King Kreatin";
             Char1speech.text = "You dont exactly have a choice here...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -115,52 +314,371 @@ public class Scene6Dialogue : MonoBehaviour
             Choice1b.SetActive(true); // function Choice1bFunct()
         }
         // ENCOUNTER AFTER CHOICE #1
-        else if (primeInt == 100)
+        else if (primeInt == 100){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "You’re coming with me, Queen!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+       else if (primeInt == 101){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Minion, come help me!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 102){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "Kreaty";
+				Char3name.text = "Yes, your horrendousness!";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 103){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Stay away from me, you fools!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 104){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "HYAH! *SMACK!* ";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 105){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Kreaty";
+				Char3speech.text = "OW!";
+		}
+		else if (primeInt == 106){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "HYAA!!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 107){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "YEEEOWCH!!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 108){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "S-she’s stronger than I thought!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 109){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "When were you ever this strong?!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 110){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "I started taking a spin class!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 111){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Dear LORD…";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 112){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "SHE’S TOO POWERFUL, WE NEED TO RETREAT!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 113){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "I will not let you!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 114){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "GUARDS! ARREST THEM IMMEDIATELY!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 115){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Lily Lads";
+                Char2speech.text = "YES, MY QUEEN!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+        else if (primeInt == 116)
         {
-            ArtCharQueen3.SetActive(false);
-            ArtCharQueen2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Queen Lily";
-            Char2speech.text = "Unhand me, you fould lizard creature!";
-        }
-        else if (primeInt == 101)
-        {
-            ArtCharKreatin2.SetActive(false);
-            ArtCharKreatin1.SetActive(true);
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Stop your squirming Lily, I've got your seat waiting for you already! Gwahaha!";
-            Char2name.text = "";
-            Char2speech.text = "";
-            nextButton.SetActive(false);
-            allowSpace = false;
-            NextScene1Button.SetActive(true);
-        }
 
-        else if (primeInt == 200)
-        {
-            ArtCharKreatin1.SetActive(false);
-            ArtCharKreatin4.SetActive(false);
-            ArtCharKreaty4.SetActive(true);
-            ArtCharKreaty3.SetActive(false);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Queen Lily";
-            Char2speech.text = "Guards, come quick! This monster is threatening your Queen!";
-        }
-        else if (primeInt == 201)
-        {
-
-            Char1name.text = "Kreatin";
-            Char1speech.text = "Uh oh...";
+            Char1name.text = "King Kreatin";
+            Char1speech.text = "NNNNOOOOOOOOOOOooOOoOOoooO!";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
         }
-    }
-
+    ////
+	
+		
+		else if (primeInt == 202){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "R..royal subjects..?";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 201){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "L O Y A L!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 202){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "PARAKREATIES!!!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 203){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "...";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 204){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = ". . .";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 205){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Kreaty";
+				Char3speech.text = "...";
+		}
+		else if (primeInt == 206){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Are they.. Coming?";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 207){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Just give them a second..";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 208){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "AH! THERE THEY ARE!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 209){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Parakreaty";
+				Char3speech.text = "Yes, your loud mouthiness?! Did you call?";
+		}
+		else if (primeInt == 210){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "YOU’RE FOUR AND A HALF SECONDS LATE!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 211){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Parakreaty";
+				Char3speech.text = "M-my greatest apologies, sire! It will not ha–";
+		}
+		else if (primeInt == 212){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Yes, I get it! Now..";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 213){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Kindly escort the Queen to our dining pavilion.";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 214){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "A dash of green will do our table great!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 215){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "You brute.. I’ll never forgive you for this!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 216){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "I had plans, you know!";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 217){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "You never forgive me, anyways!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 218){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "AH HA HA HA HA HA HA HA HA HA HA HA HA!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 219){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Parakreaty";
+				Char3speech.text = "Yes, sire!";
+		}
+		else if (primeInt == 220){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Parakreaty";
+				Char3speech.text = "This way, Queen! I shall fly you off!";
+		}
+		else if (primeInt == 221){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Queen Lily";
+                Char2speech.text = "Hmph! Lovely.";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 222){
+				Char1name.text = "";
+                Char1speech.text = "[The Parakreaties take Queen Lily away.]";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 223){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "And that takes care of that!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 224){
+				Char1name.text = "King Kreatin";
+                Char1speech.text = "Let us escape before they find us and throw us in their froggy jail!";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		else if (primeInt == 225){
+				Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
+				Char3name.text = "Kreaty";
+				Char3speech.text = "Of course, your slipperyness!";
+		}
+		else if (primeInt == 226)
+        {
+            ArtCharKreatin2.SetActive(false);
+            ArtCharKreatin1.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Kreaty";
+			Char3speech.text = "Let’s move on!";
+            nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
+        }
+	}
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
@@ -168,8 +686,8 @@ public class Scene6Dialogue : MonoBehaviour
         ArtCharKreatin2.SetActive(true);
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty3.SetActive(true);
-        Char1name.text = "Kreatin";
-        Char1speech.text = "You're coming to my party wether you like it or not!";
+        Char1name.text = "King Kreatin";
+        Char1speech.text = "You're coming with me, Queen!";
         Char2name.text = "";
         Char2speech.text = "";
         primeInt = 99;
@@ -178,14 +696,15 @@ public class Scene6Dialogue : MonoBehaviour
         nextButton.SetActive(true);
         allowSpace = true;
     }
+	
     public void Choice1bFunct()
     {
         ArtCharKreatin1.SetActive(true);
         ArtCharKreatin3.SetActive(false);
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty3.SetActive(true);
-        Char1name.text = "Kreatin";
-        Char1speech.text = "You're free to cry and moan all you like though!";
+        Char1name.text = "King Kreatin";
+        Char1speech.text = "I’m going to have my loyal subjects take care of you!!";
         Char2name.text = "";
         Char2speech.text = "";
         primeInt = 199;
