@@ -336,15 +336,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 29){
-<<<<<<< HEAD
 			ArtCharKK3.SetActive(true);
 			ArtCharKK2.SetActive(false);
 			ArtCharPK2.SetActive(false);
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "FOR WHAT, MY MINION! SPEAK!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -352,13 +348,10 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 30){
-<<<<<<< HEAD
 			ArtCharKK1.SetActive(true);
 			ArtCharKK3.SetActive(false);
 			ArtCharPK1.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -367,11 +360,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 31){
-<<<<<<< HEAD
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "...";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -379,13 +368,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 32){
-<<<<<<< HEAD
 			ArtCharKK4.SetActive(true);
 			ArtCharKK1.SetActive(false);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "I see..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -393,13 +378,10 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 33){
-<<<<<<< HEAD
 			ArtCharKK1.SetActive(true);
 			ArtCharKK4.SetActive(false);
 			ArtCharPK2.SetActive(false);
 			ArtCharPK1.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -408,11 +390,8 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 34){
-<<<<<<< HEAD
 			ArtCharPK1.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -421,11 +400,8 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 35){
-<<<<<<< HEAD
 			ArtCharPK2.SetActive(false);
 			ArtCharPK1.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -434,11 +410,8 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 36){
-<<<<<<< HEAD
 			ArtCharPK1.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -447,13 +420,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 37){
-<<<<<<< HEAD
 			ArtCharKK2.SetActive(true);
 			ArtCharKK1.SetActive(false);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "Food AND friends..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -461,15 +430,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 38){
-<<<<<<< HEAD
 			ArtCharKK4.SetActive(true);
 			ArtCharKK2.SetActive(false);
 			ArtCharPK2.SetActive(false);
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "And I assume you come bearing the invitation that is so royally meant for me?";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -477,11 +442,8 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 39){
-<<<<<<< HEAD
 			ArtCharKK1.SetActive(true);
 			ArtCharKK4.SetActive(false);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -490,11 +452,8 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 40){
-<<<<<<< HEAD
 			ArtCharPK1.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -503,15 +462,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 41){
-<<<<<<< HEAD
 			ArtCharKK5.SetActive(true);
 			ArtCharKK1.SetActive(false);
 			ArtCharPK2.SetActive(false);
 			ArtCharPK3.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTT?!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -519,13 +474,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 42){
-<<<<<<< HEAD
 			ArtCharKK3.SetActive(true);
 			ArtCharKK5.SetActive(false);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "THIS IS MADNESS!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -533,13 +484,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 43){
-<<<<<<< HEAD
 			ArtCharPK3.SetActive(false);
 			ArtCharPK2.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "TREACHERY!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -547,13 +494,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 44){
-<<<<<<< HEAD
 			ArtCharPK2.SetActive(false);
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "TREASON!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -561,11 +504,7 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 45){
-<<<<<<< HEAD
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "HOW COULD THEY..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -573,13 +512,9 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 46){
-<<<<<<< HEAD
 			ArtCharKK6.SetActive(true);
 			ArtCharKK3.SetActive(false);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "I..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -587,15 +522,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 47){
-<<<<<<< HEAD
 			ArtCharKK3.SetActive(true);
 			ArtCharKK6.SetActive(false);
 			ArtCharPK1.SetActive(false);
 			ArtCharPK3.SetActive(true);
 				Char1name.text = "King Kreatin";
-=======
-				Char1name.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char1speech.text = "I THOUGHT WE WERE FRIENDS!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -603,13 +534,10 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 48){
-<<<<<<< HEAD
 			ArtCharPK3.SetActive(false);
 			ArtCharPK1.SetActive(true);
 			ArtCharKK6.SetActive(true);
 			ArtCharKK3.SetActive(false);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -618,7 +546,6 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 49){
-<<<<<<< HEAD
 			ArtCharPK1.SetActive(false);
 			ArtCharPK3.SetActive(true);
 			ArtCharKK3.SetActive(true);
@@ -626,23 +553,16 @@ public class Scene2Dialogue : MonoBehaviour
 			
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT?!";
-=======
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
 		else if (primeInt == 50){
-<<<<<<< HEAD
 			ArtCharKK6.SetActive(true);
 			ArtCharKK3.SetActive(false);
 			ArtCharPK3.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -662,15 +582,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 52){
 			ArtCharKK6.SetActive(true);
 			ArtCharKK3.SetActive(false);
 			ArtCharPK3.SetActive(false);
 			ArtCharPK2.SetActive(true);
-=======
-		else if (primeInt == 51){
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Parakreaty";
@@ -688,7 +604,6 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 54){
 			ArtCharKK6.SetActive(true);
 			ArtCharKK5.SetActive(false);
@@ -696,17 +611,11 @@ public class Scene2Dialogue : MonoBehaviour
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "THOSE..";
-=======
-		else if (primeInt == 52){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 55){
 			ArtCharKK3.SetActive(true);
 			ArtCharKK6.SetActive(false);
@@ -714,17 +623,11 @@ public class Scene2Dialogue : MonoBehaviour
 			ArtCharPK3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "THOSE MONSTERS!";
-=======
-		else if (primeInt == 53){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 56){
 			ArtCharKK6.SetActive(true);
 			ArtCharKK3.SetActive(false);
@@ -732,17 +635,11 @@ public class Scene2Dialogue : MonoBehaviour
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "’LL SHOW THEM…";
-=======
-		else if (primeInt == 54){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 57){
 			ArtCharKK3.SetActive(true);
 			ArtCharKK6.SetActive(false);
@@ -750,17 +647,11 @@ public class Scene2Dialogue : MonoBehaviour
 			ArtCharPK3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I’LL SHOW THEM ALL!!";
-=======
-		else if (primeInt == 55){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 58){
 			ArtCharKK1.SetActive(true);
 			ArtCharKK3.SetActive(false);
@@ -768,22 +659,13 @@ public class Scene2Dialogue : MonoBehaviour
 			ArtCharPK1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "MINION!!!";
-=======
-		else if (primeInt == 56){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 59){
 			ArtCharKreaty2.SetActive(true);
-=======
-		else if (primeInt == 57){
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -803,17 +685,11 @@ public class Scene2Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-<<<<<<< HEAD
 		else if (primeInt == 61){
 			ArtCharKK1.SetActive(true);
 			ArtCharKK4.SetActive(false);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "We have a very important issue on our hands..";
-=======
-		else if (primeInt == 58){
-				Char1name.text = "";
-                Char1speech.text = "";
->>>>>>> 3adf46b080727d6f85e743ffd2dd28883f7402a7
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
