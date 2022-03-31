@@ -108,15 +108,20 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 5){
-				Char1name.text = "King Kreatin";
-                Char1speech.text = "PRINCE BUTTERBELLLLLLLLLLLL!";
+            ArtCharKreatin3.SetActive(true);
+     
+            Char1name.text = "King Kreatin";
+            
+            Char1speech.text = "PRINCE BUTTERBELLLLLLLLLLLL!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
 		else if (primeInt == 6){
-				Char1name.text = "";
+            ArtCharBee1.SetActive(true);
+
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "AAAAAAAAHHH!?";
@@ -132,7 +137,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 8){
-				Char1name.text = "";
+            ArtCharBee1.SetActive(false);
+            ArtCharBee3.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "What are you doing here?!";
@@ -148,7 +155,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 10){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin1.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "I guess all I can be is uninvited, now can I?!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -156,7 +165,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 11){
-				Char1name.text = "";
+            ArtCharBee3.SetActive(false);
+            ArtCharBee5.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "O-oh dear.. ";
@@ -172,7 +183,11 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 13){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin3.SetActive(true);
+            ArtCharKreatin1.SetActive(false);
+            ArtCharBee5.SetActive(false);
+            ArtCharBee1.SetActive(true);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "OF COURSE I DID!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -180,7 +195,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 14){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin1.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "Leaving me out of something like that..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -188,7 +205,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 15){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin3.SetActive(true);
+            ArtCharKreatin1.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "IT ENRAGES ME SO MUCH!!!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -212,7 +231,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 18){
-				Char1name.text = "";
+            ArtCharBee1.SetActive(false);
+            ArtCharBee3.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "Queen Lily just.. Didn’t think you would be interested..?";
@@ -228,7 +249,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 20){
-				Char1name.text = "";
+            ArtCharBee3.SetActive(false);
+            ArtCharBee1.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "N-no..!";
@@ -236,7 +259,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 21){
-				Char1name.text = "";
+            ArtCharBee1.SetActive(false);
+            ArtCharBee3.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "I just.. Think you can stand to be a little less";
@@ -244,7 +269,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 22){
-				Char1name.text = "";
+            ArtCharBee3.SetActive(false);
+            ArtCharBee5.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "..Scary?";
@@ -252,7 +279,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 23){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin4.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "Grrhhhhh...";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -265,7 +294,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin3.SetActive(true);
+            ArtCharKreatin1.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "SCARY?!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -281,7 +312,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 102){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "GWAAAAHAHAHAHAAHA!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -289,7 +322,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 103){
-				Char1name.text = "";
+            ArtCharBee5.SetActive(false);
+            ArtCharBee1.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "E-eeeekk..!";
@@ -297,7 +332,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 104){
-				Char1name.text = "";
+            ArtCharBee1.SetActive(false);
+            ArtCharBee5.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "K-King Kreatin – I’m deeply sorry!";
@@ -321,7 +358,11 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 107){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin3.SetActive(true);
+            ArtCharKreatin2.SetActive(false);
+            ArtCharBee5.SetActive(false);
+            ArtCharBee1.SetActive(true);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "IT’S TOO LATE FOR THAT!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -337,7 +378,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 109){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin3.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "THE FEAST IS TONIGHT!";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -360,7 +403,9 @@ public void talking(){         // main story function. Players hit next to progr
 
 
        else if (primeInt == 200){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin4.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "Me? Scary? Nonsense..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -368,7 +413,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 201){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin4.SetActive(true);
+            ArtCharKreatin2.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "There’s nothing to be afraid of, after all..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -384,7 +431,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 203){
-				Char1name.text = "";
+            ArtCharBee5.SetActive(false);
+            ArtCharBee3.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "N..next feast..?";
@@ -392,7 +441,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 204){
-				Char1name.text = "";
+            ArtCharBee3.SetActive(false);
+            ArtCharBee1.SetActive(true);
+            Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Butterbee";
                 Char2speech.text = "U-uh oh..";
@@ -400,7 +451,9 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3speech.text = "";
 		}
 		else if (primeInt == 205){
-				Char1name.text = "King Kreatin";
+            ArtCharKreatin2.SetActive(true);
+            ArtCharKreatin4.SetActive(false);
+            Char1name.text = "King Kreatin";
                 Char1speech.text = "That’s right..";
                 Char2name.text = "";
                 Char2speech.text = "";
@@ -420,7 +473,9 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                Char1name.text = "King Kreatin";
+        ArtCharKreatin1.SetActive(true);
+        ArtCharKreatin4.SetActive(false);
+        Char1name.text = "King Kreatin";
                 Char1speech.text = "Scary..?";
                 Char2name.text = "";
                 Char2speech.text = "";
