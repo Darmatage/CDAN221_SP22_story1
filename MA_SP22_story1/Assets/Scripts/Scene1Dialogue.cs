@@ -92,7 +92,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 6){
 			   ArtCharBee1.SetActive(false);
                 dialogue.SetActive(true);
-                Char1speech.text = "and even the gnomes of Blue Kingdom have come for a visit too!";
+                Char1speech.text = "the gnomes of Blue Kingdom have come for a visit too!";
                 Char2name.text = "";
                 Char2speech.text = "";			
 		}

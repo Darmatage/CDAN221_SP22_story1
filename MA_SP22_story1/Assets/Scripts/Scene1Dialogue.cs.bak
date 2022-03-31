@@ -602,7 +602,7 @@ public void talking(){         // main story function. Players hit next to progr
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
 
-            ArtCharBee4.SetActive(false);
+            ArtCharBee1.SetActive(false);
             ArtCharBee3.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "Perhaps you are right, Queen Lily!";
@@ -616,7 +616,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
 
-            ArtCharBee4.SetActive(false);
+            ArtCharBee1.SetActive(false);
             ArtCharBee2.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "I'm not too sure I agree with you, Queen Lily..";
