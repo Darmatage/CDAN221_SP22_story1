@@ -601,6 +601,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 202){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Standing here arguing won’t get us anywhere!";
                 Char2name.text = "";
@@ -609,6 +611,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 203){
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Therefore..!";
                 Char2name.text = "";
@@ -625,6 +629,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "Therefore?";
 		}
 		else if (primeInt == 205){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "WE’LL FORCE OUR WAY THROUGH!!!";
                 Char2name.text = "";
@@ -641,6 +647,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 207){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Out of my way, Lily Loser!";
                 Char2name.text = "";
@@ -649,6 +657,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 208){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "King Kreatin is on a one way course to see the queen!";
                 Char2name.text = "";
@@ -665,6 +675,8 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		else if (primeInt == 210){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin5.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "GAH!";
                 Char2name.text = "";
