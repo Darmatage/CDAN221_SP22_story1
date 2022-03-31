@@ -82,45 +82,15 @@ public void talking(){         // main story function. Players hit next to progr
         if (primeInt == 1){
                 // AudioSource.Play();
         }
-        else if (primeInt == 2){
-                DialogueDisplay.SetActive(true);
-                Char1name.text = "ButterBee";
-                Char1speech.text = "King Kreatin!? What are you doing here uninvited?";
+       else if (primeInt == 1){
+				Char1name.text = "";
+                Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-        }
-       else if (primeInt ==3){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "Seems like all I can be is uninvited!";
-                //gameHandler.AddPlayerStat(1);
-        }
-       else if (primeInt == 4){
-                Char1name.text = "ButterBee";
-                Char1speech.text = "Oh... so you heard about the festival?";
-                Char2name.text = "";
-                Char2speech.text = "";
-        }
-       else if (primeInt == 5){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "Of course! You must think I'm stupid, ButterBee!";
-                //gameHandler.AddPlayerStat(1);
-        }
-       else if (primeInt == 6){
-                Char1name.text = "ButterBee";
-                Char1speech.text = "N-no nothing like that! Lily thought you wouldn't be interested is all!";
-                Char2name.text = "";
-                Char2speech.text = "";
-        }
-       else if (primeInt ==7){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Kreatin";
-                Char2speech.text = "You really think I'm going to buy that?";
-        }
+				Char3name.text = "";
+				Char3speech.text = "";
+		}
+		
        else if (primeInt == 8){
                 Char1name.text = "ButterBee";
                 Char1speech.text = "Well, maybe if you werent so intimidating all the time..!";
