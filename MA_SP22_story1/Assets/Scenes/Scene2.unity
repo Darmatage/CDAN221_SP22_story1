@@ -1347,8 +1347,8 @@ MonoBehaviour:
   Char1speech: {fileID: 1461869049}
   Char2name: {fileID: 1067323543}
   Char2speech: {fileID: 1227136282}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
+  Char3name: {fileID: 1994320068}
+  Char3speech: {fileID: 842853294}
   DialogueDisplay: {fileID: 901021240}
   ArtCharKK1: {fileID: 137798354}
   ArtCharKK2: {fileID: 574810377}

@@ -148,8 +148,8 @@ public class Scene2Dialogue : MonoBehaviour
 		else if (primeInt == 10){
 			ArtCharKK1.SetActive(true);
 				Char1name.text = "King Kreatin";
-                Char1speech.text = "";
-                Char2name.text = "Hrhmm....";
+                Char1speech.text = "Hrhmm....";
+                Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
