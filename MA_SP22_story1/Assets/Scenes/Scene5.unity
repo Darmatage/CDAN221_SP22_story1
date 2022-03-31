@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9433962, g: 0.5910208, b: 0.54645777, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2565,6 +2565,7 @@ MonoBehaviour:
   ArtCharKreaty1: {fileID: 1887057247}
   ArtCharKreaty2: {fileID: 806951640}
   ArtCharKreaty3: {fileID: 557692269}
+  ArtCharKreaty4: {fileID: 1485565395}
   ArtBG1: {fileID: 408312144}
   Choice1a: {fileID: 518730193}
   Choice1b: {fileID: 499247306}
@@ -3110,7 +3111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9339623, g: 0.4000178, b: 0.4000178, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
