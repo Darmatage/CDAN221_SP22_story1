@@ -146,6 +146,18 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameHandler, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 409698128809495445, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409698128809495445, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409698128809495445, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 409698129023300119, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -161,6 +173,14 @@ PrefabInstance:
     - target: {fileID: 409698129113509944, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RestartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 409698129617006063, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409698129617006063, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 409698130394352078, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_Pivot.x
@@ -249,6 +269,10 @@ PrefabInstance:
     - target: {fileID: 409698130394352079, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_Name
       value: PauseMenuAlpha
+      objectReference: {fileID: 0}
+    - target: {fileID: 409698130394352079, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 409698130505443285, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1904,6 +1928,7 @@ MonoBehaviour:
   ArtCharBee2: {fileID: 447313822}
   ArtCharBee3: {fileID: 1148443125}
   ArtCharBee4: {fileID: 1463886319}
+  ArtCharBee5: {fileID: 1374348639}
   ArtCharQueen1: {fileID: 1961591361}
   ArtCharQueen2: {fileID: 1022844162}
   ArtCharQueen3: {fileID: 86868552}

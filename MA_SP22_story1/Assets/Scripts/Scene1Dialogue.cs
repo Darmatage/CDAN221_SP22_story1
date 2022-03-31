@@ -18,6 +18,7 @@ public class Scene1Dialogue : MonoBehaviour {
 		public GameObject ArtCharBee2;
 		public GameObject ArtCharBee3;
 		public GameObject ArtCharBee4;
+		public GameObject ArtCharBee5;
 		public GameObject ArtCharQueen1;
 		public GameObject ArtCharQueen2;
 		public GameObject ArtCharQueen3;
@@ -37,6 +38,7 @@ void Start(){         // initial visibility settings
 		ArtCharBee2.SetActive(false);
 		ArtCharBee3.SetActive(false);
 		ArtCharBee4.SetActive(false);
+		ArtCharBee5.SetActive(false);
 		 ArtCharQueen1.SetActive(false);
 		 ArtCharQueen2.SetActive(false);
 		 ArtCharQueen3.SetActive(false);
@@ -261,7 +263,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
        else if (primeInt == 27){
             ArtCharBee4.SetActive(false);
-            ArtCharBee1.SetActive(true);
+            ArtCharBee5.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "O-oh my, Lily. Do you find that a wise decision?";
                 Char2name.text = "";
@@ -465,7 +467,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 204){
                 dialogue.SetActive(true);
 			ArtCharBee2.SetActive(false);
-            ArtCharBee1.SetActive(true);
+            ArtCharBee5.SetActive(true);
 				Char1name.text = "ButterBee";
                 Char1speech.text = "take too kindly to being left out like this...";
                 Char2name.text = "";
@@ -473,7 +475,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 205){
                 dialogue.SetActive(true);
-			ArtCharBee2.SetActive(false);
+			ArtCharBee5.SetActive(false);
             ArtCharBee1.SetActive(true);
 				Char1name.text = "ButterBee";
                 Char1speech.text = "You know how he can get, Queen Lily..";
@@ -537,7 +539,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 212){
                 dialogue.SetActive(true);
 			ArtCharBee4.SetActive(false);
-            ArtCharBee1.SetActive(true);
+            ArtCharBee5.SetActive(true);
 				Char1name.text = "Butterbee";
                 Char1speech.text = "A..ah.. right.";
                 Char2name.text = "";
@@ -581,7 +583,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 217){
                 dialogue.SetActive(true);
-			ArtCharBee1.SetActive(false);
+			ArtCharBee5.SetActive(false);
 			ArtCharBee2.SetActive(true);	
 				Char1name.text = "ButterBee";
                 Char1speech.text = "Ah.. right..! As you say, Queen Lily.";
@@ -602,7 +604,7 @@ public void talking(){         // main story function. Players hit next to progr
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
 
-            ArtCharBee1.SetActive(false);
+            ArtCharBee5.SetActive(false);
             ArtCharBee3.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "Perhaps you are right, Queen Lily!";
@@ -616,7 +618,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
 
-            ArtCharBee1.SetActive(false);
+            ArtCharBee5.SetActive(false);
             ArtCharBee2.SetActive(true);
                 Char1name.text = "ButterBee";
                 Char1speech.text = "I'm not too sure I agree with you, Queen Lily..";

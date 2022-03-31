@@ -940,6 +940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuAlpha
       objectReference: {fileID: 0}
+    - target: {fileID: 409698130394352079, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 409698130505443285, guid: 3d087db870eca7145b498742a7ab1f33, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

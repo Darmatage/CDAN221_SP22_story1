@@ -8,7 +8,7 @@ using UnityEngine.Audio;
 public class GameHandler : MonoBehaviour {
 
         public static int playerStat;
-		public Texture2D cursorArrow; 
+
         public static bool GameisPaused = false;
         public static bool kidnap = false;
         public GameObject pauseMenuUI;
@@ -27,8 +27,6 @@ public class GameHandler : MonoBehaviour {
 
         void Start (){
                 pauseMenuUI.SetActive(false);
-				GameisPaused = false;
-                Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware); 
         }
 
         void Update (){
