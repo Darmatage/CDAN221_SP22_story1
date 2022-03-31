@@ -79,7 +79,9 @@ public class Scene5Dialogue : MonoBehaviour
         {
             // AudioSource.Play();
         }
-        else if (primeInt == x){
+        else if (primeInt == 2){
+			DialogueDisplay.SetActive(true);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "AHHH, the Green Kingdom..";
                 Char2name.text = "";
@@ -87,7 +89,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 3){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "As Green as ever!";
                 Char2name.text = "";
@@ -95,7 +97,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 4){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "No red at all.";
                 Char2name.text = "";
@@ -103,7 +107,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 5){
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "…";
                 Char2name.text = "";
@@ -111,7 +117,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 6){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I hate it!";
                 Char2name.text = "";
@@ -119,7 +127,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 7){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -127,7 +137,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "But the air is so fresh and tasty here!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 8){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -135,7 +145,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "What could you possibly hate about it?";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 9){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I could go on a whole tirade about it, my Kreaty.";
                 Char2name.text = "";
@@ -143,7 +155,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 10){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "But we’re on a tight schedule!";
                 Char2name.text = "";
@@ -151,7 +165,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 11){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "We need to kidnap her by sundown!";
                 Char2name.text = "";
@@ -159,7 +175,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 12){
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Come, let’s storm the ca–";
                 Char2name.text = "";
@@ -167,7 +185,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 13){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin5.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "???";
@@ -175,7 +195,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 14){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "???";
@@ -183,7 +203,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 15){
+			ArtCharKreatin5.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "???";
@@ -191,7 +213,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 16){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "???";
@@ -199,7 +221,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 17){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "HEY!!!";
                 Char2name.text = "";
@@ -207,7 +231,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 18){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I’m much more deserving than a “you”, peasant!";
                 Char2name.text = "";
@@ -215,7 +241,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 19){
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "So, you’re one of Queen Lily’s royal guards..";
                 Char2name.text = "";
@@ -223,7 +251,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 20){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "The Leafy Boys…";
                 Char2name.text = "";
@@ -231,7 +261,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 21){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -239,7 +269,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 22){
+			ArtCharKreatin4.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "MAYBE I WILL!";
                 Char2name.text = "";
@@ -247,7 +279,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 23){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -255,7 +289,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 24){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "NO!";
                 Char2name.text = "";
@@ -263,7 +299,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 25){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "GWAHAHAHAHAHAR!";
                 Char2name.text = "";
@@ -271,7 +309,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 26){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -279,7 +317,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 27){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "MOVING ON, Lily Lard!";
                 Char2name.text = "";
@@ -287,7 +327,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 28){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Take me directly to the queen’s throne room! I must see her about some.. Very important matters…";
                 Char2name.text = "";
@@ -295,7 +335,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 29){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -304,7 +344,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3speech.text = "";
 		}
 		
-		else if (primeInt == x){
+		else if (primeInt == 30){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -312,7 +352,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 31){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -320,7 +360,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 32){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Hey! That was UNCALLED for!";
                 Char2name.text = "";
@@ -328,7 +370,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 33){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -336,7 +380,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 34){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -344,7 +388,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 35){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -352,7 +396,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 36){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -360,7 +404,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "Y-your trivialness!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 37){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Mm? What is it, minion?";
                 Char2name.text = "";
@@ -368,7 +412,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 38){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -376,7 +420,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "We’ll be here all day if we don’t figure out how to get past him..!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 39){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -384,8 +428,10 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "What are we going to do?";
 		}
-        else if (primeInt == 10)
+        else if (primeInt == 40)
         {
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
             ArtCharLilylad3.SetActive(false);
             ArtCharLilylad1.SetActive(true);
             Char1name.text = "King Kreatin";
@@ -401,7 +447,7 @@ public class Scene5Dialogue : MonoBehaviour
             Choice1b.SetActive(true); // function Choice1bFunct()
         }
         // ENCOUNTER AFTER CHOICE #1
-        else if (primeInt == x){
+        else if (primeInt == 100){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -409,7 +455,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "W-wait-- really?!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 101){
+			ArtCharKreatin6.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "SHHH! Minion.. We'll sneak our way in, so follow my lead..!";
                 Char2name.text = "";
@@ -417,7 +465,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 102){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -425,7 +473,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "O-oh.. of course, my king..!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 103){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -433,7 +483,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 104){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -441,7 +491,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 105){
+			ArtCharKreatin1.SetActive(false);
+			ArtCharKreatin6.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "HEY- hey! No need to be rash!";
                 Char2name.text = "";
@@ -449,7 +501,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 105){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "We were just on our way!";
                 Char2name.text = "";
@@ -457,7 +509,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 106){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -465,7 +517,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 107){
+			ArtCharKreatin6.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Hrrrghh.. fine! Bye!";
                 Char2name.text = "";
@@ -473,7 +527,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 108){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -481,7 +535,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 109){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin4.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -489,7 +545,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 110){
+			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "HA! He's gone, now's our chance!";
                 Char2name.text = "";
@@ -497,7 +555,9 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 111){
+			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Onwards, minion!";
                 Char2name.text = "";
@@ -505,7 +565,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-        else if (primeInt == 103)
+        else if (primeInt == 112)
         {
             ArtCharKreatin2.SetActive(false);
             ArtCharKreatin4.SetActive(true);
@@ -524,7 +584,7 @@ public class Scene5Dialogue : MonoBehaviour
 
 ///
 
-		else if (primeInt == x){
+		else if (primeInt == 200){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -532,7 +592,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "I am?";
 		}
-        else if (primeInt == x){
+        else if (primeInt == 201){
 				Char1name.text = "";
                 Char1speech.text = "Lily Lad";
                 Char2name.text = "He is?";
@@ -540,7 +600,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 202){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Standing here arguing won’t get us anywhere!";
                 Char2name.text = "";
@@ -548,7 +608,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 203){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Therefore..!";
                 Char2name.text = "";
@@ -556,7 +616,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 204){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -564,7 +624,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "Therefore?";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 205){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "WE’LL FORCE OUR WAY THROUGH!!!";
                 Char2name.text = "";
@@ -572,7 +632,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 206){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -580,7 +640,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 207){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "Out of my way, Lily Loser!";
                 Char2name.text = "";
@@ -588,7 +648,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 208){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "King Kreatin is on a one way course to see the queen!";
                 Char2name.text = "";
@@ -596,7 +656,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 209){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -604,7 +664,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 210){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "GAH!";
                 Char2name.text = "";
@@ -612,7 +672,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 211){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "THERE’S SO MANY OF THEM!";
                 Char2name.text = "";
@@ -620,7 +680,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 212){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -628,7 +688,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "Kreaty";
 				Char3speech.text = "M-my king!";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 213){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -636,7 +696,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 214){
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "EEEEEEEEEEEEEEEEEEEEEEEEEEE!!!";
                 Char2name.text = "";
@@ -644,7 +704,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-		else if (primeInt == x){
+		else if (primeInt == 215){
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Lily Lad";
@@ -652,7 +712,7 @@ public class Scene5Dialogue : MonoBehaviour
 				Char3name.text = "";
 				Char3speech.text = "";
 		}
-        else if (primeInt == 202)
+        else if (primeInt == 216)
         {
             ArtCharKreaty2.SetActive(true);
             ArtCharKreaty3.SetActive(false);
@@ -660,7 +720,7 @@ public class Scene5Dialogue : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "Kreaty";
-			Char3name.text = "YOUR MAGESTY!!!";
+			Char3name.text = "YOUR MAJESTY!!!";
 			Char3speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
@@ -671,6 +731,8 @@ public class Scene5Dialogue : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
+		ArtCharKreatin4.SetActive(false);
+		ArtCharKreatin6.SetActive(true);
         Char1name.text = "Kreatin";
         Char1speech.text = "GrhMmHMhmm.. Looks like.. we'll have to leave..";
         Char2name.text = "";
@@ -685,8 +747,8 @@ public class Scene5Dialogue : MonoBehaviour
     }
     public void Choice1bFunct()
     {
-        ArtCharKreatin1.SetActive(false);
-        ArtCharKreatin3.SetActive(true);
+        ArtCharKreatin4.SetActive(false);
+        ArtCharKreatin2.SetActive(true);
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty2.SetActive(true);
         Char1name.text = "Kreatin";

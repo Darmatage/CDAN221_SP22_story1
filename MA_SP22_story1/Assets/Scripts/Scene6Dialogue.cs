@@ -24,7 +24,9 @@ public class Scene6Dialogue : MonoBehaviour
     public GameObject ArtCharQueen1;
     public GameObject ArtCharQueen2;
     public GameObject ArtCharQueen3;
+	public GameObject ArtCharLilylad1;
 	public GameObject ArtCharLilylad2;
+	public GameObject ArtCharLilylad3;
     public GameObject ArtCharKreaty1;
     public GameObject ArtCharKreaty2;
     public GameObject ArtCharKreaty3;
@@ -58,7 +60,9 @@ public class Scene6Dialogue : MonoBehaviour
         ArtCharQueen1.SetActive(false);
         ArtCharQueen2.SetActive(false);
         ArtCharQueen3.SetActive(false);
+		ArtCharLilylad1.SetActive(false);
 		ArtCharLilylad2.SetActive(false);
+		ArtCharLilylad3.SetActive(false);
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty2.SetActive(false);
         ArtCharKreaty3.SetActive(false);

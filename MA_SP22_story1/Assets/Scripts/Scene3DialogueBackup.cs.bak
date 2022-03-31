@@ -928,7 +928,7 @@ public class Scene3Dialogue : MonoBehaviour
     {
         ArtCharKK4.SetActive(false);
         ArtCharKK2.SetActive(true);
-        ArtCharKreaty1.SetActive(false);
+        ArtCharKreaty2.SetActive(false);
         ArtCharKreaty4.SetActive(true);
         Char1name.text = "King Kreatin";
         Char1speech.text = "We'll use some.. 'gentle persuasion...' ";
