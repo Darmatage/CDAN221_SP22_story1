@@ -106,7 +106,7 @@ public class Scene4Dialogue : MonoBehaviour
 		}
 		else if (primeInt == 6){
 			ArtCharKreatin4.SetActive(false);
-			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I love it here!";
                 Char2name.text = "";
@@ -133,7 +133,7 @@ public class Scene4Dialogue : MonoBehaviour
 			ArtCharKreaty2.SetActive(false);
             ArtCharKreaty4.SetActive(true);
 			ArtCharKreatin4.SetActive(false);
-			ArtCharKreatin5.SetActive(true);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "WHAT WAS THAT?!";
                 Char2name.text = "";
@@ -194,7 +194,7 @@ public class Scene4Dialogue : MonoBehaviour
                 Char2speech.text = "She blooms brighter than anyone in the whole world!";
 		}
 		else if (primeInt == 17){
-			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty3.SetActive(false);
             ArtCharKreaty1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
@@ -282,10 +282,10 @@ public class Scene4Dialogue : MonoBehaviour
                 Char2speech.text = "A gnome of unknown origins with--";
 		}
 		else if (primeInt == 27){
-			ArtCharKreaty3.SetActive(false);
+			ArtCharKreaty2.SetActive(false);
             ArtCharKreaty4.SetActive(true);
 			ArtCharKreatin1.SetActive(false);
-			ArtCharKreatin3.SetActive(false);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I ALREADY KNOW THIS!";
                 Char2name.text = "";

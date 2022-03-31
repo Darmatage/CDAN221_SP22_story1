@@ -25,6 +25,7 @@ public class Scene4Dialogue : MonoBehaviour
     public GameObject ArtCharKreaty1;
     public GameObject ArtCharKreaty2;
     public GameObject ArtCharKreaty3;
+	public GameObject ArtCharKreaty4;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -47,6 +48,7 @@ public class Scene4Dialogue : MonoBehaviour
         ArtCharKreaty1.SetActive(false);
         ArtCharKreaty2.SetActive(false);
         ArtCharKreaty3.SetActive(false);
+		ArtCharKreaty4.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -104,7 +106,7 @@ public class Scene4Dialogue : MonoBehaviour
 		}
 		else if (primeInt == 6){
 			ArtCharKreatin4.SetActive(false);
-			ArtCharKreatin2.SetActive(false);
+			ArtCharKreatin2.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "I love it here!";
                 Char2name.text = "";
@@ -131,7 +133,7 @@ public class Scene4Dialogue : MonoBehaviour
 			ArtCharKreaty2.SetActive(false);
             ArtCharKreaty4.SetActive(true);
 			ArtCharKreatin4.SetActive(false);
-			ArtCharKreatin5.SetActive(true);
+			ArtCharKreatin3.SetActive(true);
 				Char1name.text = "King Kreatin";
                 Char1speech.text = "WHAT WAS THAT?!";
                 Char2name.text = "";
@@ -192,7 +194,7 @@ public class Scene4Dialogue : MonoBehaviour
                 Char2speech.text = "She blooms brighter than anyone in the whole world!";
 		}
 		else if (primeInt == 17){
-			ArtCharKreaty2.SetActive(false);
+			ArtCharKreaty3.SetActive(false);
             ArtCharKreaty1.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";

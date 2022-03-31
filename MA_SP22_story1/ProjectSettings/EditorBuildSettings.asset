@@ -44,12 +44,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene10b.unity
     guid: 8f7b291f197b14ab9ad3170092e58b08
-  - enabled: 1
-    path: Assets/Scenes/Scene11.unity
-    guid: 3ea66204a64524d2eb925810c7503929
-  - enabled: 1
-    path: Assets/Scenes/Scene12.unity
-    guid: f973540e15f0d434ab087e9c378dadec
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/End_Win.unity
     guid: 242a4fa7d75104d76aad7910b487c5c6
